@@ -1,0 +1,14 @@
+.navBarStyle{
+    background-color: #5000b8;
+}
+
+.paketManLogo{
+    height: 2.724625rem;
+    width: 6.25rem;
+}
+
+#navBarItems .nav-link{
+    color: white;
+    font-family: 'Tajawal';
+    font-weight: bold;
+}
