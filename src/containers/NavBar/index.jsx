@@ -6,6 +6,7 @@ import "./index.css";
 const NavBar = () => {
     return(
         <Navbar collapseOnSelect expand="lg" sticky="top" className="navBarStyle" >
+          <Container className="navBarContainer">
           <Navbar.Brand href="#home">
             <Image 
             src={PaketmanLogo} 
@@ -14,8 +15,8 @@ const NavBar = () => {
           </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-            <Container>
-          <Nav className="mr-auto" id='navBarItems'>
+            {/* <Container id='navBarItems'> */}
+          <Nav className="mr-auto">
       <Nav.Link >
         Features
         </Nav.Link>
@@ -23,8 +24,9 @@ const NavBar = () => {
       <Nav.Link >FAQ</Nav.Link>
       <Nav.Link >Contact Us</Nav.Link>
     </Nav>
-    </Container>
+    {/* </Container> */}
   </Navbar.Collapse>
+  </Container>
 </Navbar>
     );
 };
