@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import {Row, Col, Image, Container } from "react-bootstrap";
 import "./index.css";
-import MobilePhoto from '../../assests/pics/2-layers.png';
+import MobilePhoto from '../../assests/pics/MobilePhoto.png';
+import YellowCercle from '../../assests/pics/yellow-Cercle.svg';
 
 const Header = () =>{
     return(
         <Container fluid className='headerContainer' expand="lg" >
+            <Container className='itemsContainer'>
             <Row className='headerMainRow'>
                 <Col className='headerText'>
                     <Row>
@@ -20,13 +22,19 @@ const Header = () =>{
                     </Row>
                 </Col>
                 <Col className='headerImg'>
-                    <Image
-                    src={MobilePhoto}
-                    className='mobilePhoto'
-                    alt='mobile showing PaketMan App'
+                <Image
+                        src={MobilePhoto}
+                        className='mobilePhoto'
+                        alt='mobile showing PaketMan App'
                     />
+                    <svg className='yellowCercle'>
+                        {YellowCercle}
+                    </svg>
+                    {/* <div className='yellowCercle'>
+                    </div> */}
                 </Col>
             </Row>
+            </Container>
         </Container>
     );
 };
