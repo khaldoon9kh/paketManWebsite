@@ -1,0 +1,44 @@
+.headerContainer{
+    background-color: #5000b7;
+    padding-top: 25px;
+}
+
+.headerText{
+    display: flex; 
+    flex-direction: column;
+}
+
+.headerMainRow{
+    justify-content: end;
+}
+
+.headerImg{
+    display: flex; 
+    justify-content: center;
+}
+
+
+.mobilePhoto{
+    width: 197px;
+    height: 386px;
+}
+
+.headerTitle{
+    max-width: 190px;
+    border-radius: 50px;
+    background-color: white;
+    align-items: stretch;
+    text-align: center;
+    font-size: 25px;
+    color: #5000b7;
+    font-family: 'Tajawal';
+    font-weight: bold;
+    padding-top: 5px;
+
+}
+
+.headerBody{
+    color:white;
+    font-family: 'Tajawal';
+    margin-top: 20px;
+}

@@ -1,14 +1,15 @@
 import './App.css';
-import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './containers/NavBar';
+import Header from './containers/Header';
 
 
 function App() {
   return (
     <>
       <NavBar/>
-</>
+      <Header/>
+    </>
   );
 }
 
