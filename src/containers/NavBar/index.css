@@ -8,7 +8,13 @@
 }
 
 #navBarItems .nav-link{
-    color: white;
+    color: #5000b8;
     font-family: 'Tajawal';
     font-weight: bold;
+    background-color: yellow;
+    border-radius: 10rem;
+    width: 6rem;
+    height: 1.5rem;
+    margin: 0.5rem 2rem;
+    text-align: center;
 }
