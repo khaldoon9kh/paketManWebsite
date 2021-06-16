@@ -2,19 +2,26 @@
     background-color: #5000b8;
 }
 
+.navBarMainCont{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .navBarContainer{
-    justify-content: space-around;
+    justify-content: left;
+    background-color: violet;
 }
 
 .paketManLogo{
-    height: 2.724625rem;
-    width: 6.25rem;
+    height: 68px;
+    width: 156px;
+    margin-top: 20px;
 }
 
 .navbar-nav{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .navbar-nav .nav-link{
     color: #5000b8;

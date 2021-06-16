@@ -5,29 +5,30 @@ import "./index.css";
 
 const NavBar = () => {
     return(
-        <Navbar collapseOnSelect expand="lg" sticky="top" className="navBarStyle" >
-          <Container className="navBarContainer">
-          <Navbar.Brand href="#home">
-            <Image 
-            src={PaketmanLogo} 
-            className="paketManLogo"
-            alt="PaketMan Logo"/>
-          </Navbar.Brand>
+        <Navbar collapseOnSelect expand="lg"  className="navBarStyle" >
+          <Container className='navBarMainCont'>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             {/* <Container id='navBarItems'> */}
           <Nav className="mr-auto">
+          <Container className="navBarItemContainer">
       <Nav.Link >
         Features
         </Nav.Link>
       <Nav.Link >Join Us</Nav.Link>
       <Nav.Link >FAQ</Nav.Link>
       <Nav.Link >Contact Us</Nav.Link>
-    </Nav>
-    {/* </Container> */}
-  </Navbar.Collapse>
-  </Container>
-</Navbar>
+      </Container>
+      </Nav>
+        </Navbar.Collapse>
+        <Navbar.Brand href="#home">
+            <Image 
+            src={PaketmanLogo} 
+            className="paketManLogo"
+            alt="PaketMan Logo"/>
+          </Navbar.Brand>
+          </Container>
+     </Navbar>
     );
 };
 
