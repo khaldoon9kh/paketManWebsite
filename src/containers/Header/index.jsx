@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import {Row, Col, Image, Container } from "react-bootstrap";
 import "./index.css";
-import MobilePhoto from '../../assests/pics/MobilePhoto.png';
+import MobilePhoto from '../../assests/pics/2-layers.png';
 
 const Header = () =>{
     return(
