@@ -1,12 +1,12 @@
 import React from "react";
-import {Row, Col, Image, Container } from "react-bootstrap";
+import { Row, Col, Image, Container } from "react-bootstrap";
 import "./index.css";
 
 const SingleFeature = ({ photo, featHead, featText }) => {
-    console.log(featText)
+  console.log(featText);
   return (
     <Container className="featureBox">
-        {/* <Row>
+      {/* <Row>
             <Col>
             </Col>
         </Row> */}
