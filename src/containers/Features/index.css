@@ -35,13 +35,21 @@ height: 43px; */
   display: flex;
   margin-top: 10px;
   justify-content: center;
+  align-content: center;
   align-items: center;
 }
 
 /* .sliderTexts {
   width: 50%;
-}
+}*/
 
 .sliderPic {
-  width: 50%;
-} */
+  width: 370px;
+  height: 370px;
+  justify-content: center;
+}
+
+.sliderImgCont {
+  display: flex;
+  justify-content: center;
+}

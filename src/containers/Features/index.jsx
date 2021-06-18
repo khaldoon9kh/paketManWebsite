@@ -36,7 +36,7 @@ const Features = () => {
             ))}
           </Slider>
         </Col>
-        <Col sm={6} className="sliderPic">
+        <Col sm={6} className="sliderImgCont" >
           <Slider
             //   autoplay={settings.autoplay}
             //   autoplaySpeed={settings.autoplaySpeed}
@@ -45,14 +45,9 @@ const Features = () => {
             speed={settings.speed}
             slidesToShow={settings.slidesToShow}
             slidesToScroll={settings.slidesToScroll}
+            className="sliderPic"
           >
             {featuresData.map((feat) => (
-              //   <SingleFeature
-              //     key={feat.id}
-              //     photo={feat.photo}
-              //     featHead={feat.featHead}
-              //     featText={feat.featText}
-              //   />
               <Image src={feat.photo} />
             ))}
           </Slider>
