@@ -11,17 +11,16 @@ const NavBar = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
             {/* <Container id='navBarItems'> */}
           <Nav className="mr-auto">
-          <Container className="navBarItemContainer">
-      <Nav.Link >
-        Features
-        </Nav.Link>
-      <Nav.Link >Join Us</Nav.Link>
-      <Nav.Link >FAQ</Nav.Link>
-      <Nav.Link >Contact Us</Nav.Link>
-      </Container>
-      </Nav>
+            <Container className="navBarItemContainer">
+              <Nav.Link >Main Page</Nav.Link>
+              <Nav.Link >Features</Nav.Link>
+              <Nav.Link >Join Us</Nav.Link>
+              <Nav.Link >FAQ</Nav.Link>
+              <Nav.Link >Contact Us</Nav.Link>
+            </Container>
+           </Nav>
         </Navbar.Collapse>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand className='logoContainer' href="#home">
             <Image 
             src={PaketmanLogo} 
             className="paketManLogo"
