@@ -13,6 +13,7 @@ const Features = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+        arrows:false,
     };
   
     return (
@@ -22,9 +23,26 @@ const Features = () => {
                     <h2>Features</h2>
                 </Col>
             </Row>
+            <Row>
+                <Col>
           <Slider
-          autoplay={settings.autoplay}
-          autoplaySpeed={settings.autoplaySpeed}
+            {...settings}
+          >
+            {featuresData.map((feat) => (
+            <SingleFeature
+              key={feat.id}
+              photo={feat.photo}
+              featHead={feat.featHead}
+              featText={feat.featText}
+            />
+          ))}
+          </Slider>
+          </Col>
+          <Col>
+          <Slider
+        //   autoplay={settings.autoplay}
+        //   autoplaySpeed={settings.autoplaySpeed}
+            arrows={settings.arrows}
             dots={settings.dots}
             speed={settings.speed}
             slidesToShow={settings.slidesToShow}
@@ -39,6 +57,8 @@ const Features = () => {
             />
           ))}
           </Slider>
+          </Col>
+          </Row>
         </Container>
     );
 };
