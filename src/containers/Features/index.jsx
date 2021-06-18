@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import "./index.css";
 import { Row, Col, Image, Container } from "react-bootstrap";
 import Slider from "react-slick";
@@ -6,14 +6,18 @@ import SingleFeature from "../../components/SingleFeature";
 import featuresData from "./dataFeatures";
 
 const Features = () => {
+  const slider1 = useRef(null);
+  const slider2 = useRef(null);
+
   const settings = {
-    // autoplay: true,
-    // autoplaySpeed: 2000,
+    autoplay: true,
+    autoplaySpeed: 2000,
     dots: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
+    asNavFor: slider2.current,
   };
 
   return (
@@ -25,7 +29,7 @@ const Features = () => {
       </Row>
       <Row className="sliderCont">
         <Col sm={6} className="sliderTexts">
-          <Slider {...settings}>
+          <Slider {...settings} ref={slider1}>
             {featuresData.map((feat) => (
               <SingleFeature
                 key={feat.id}
@@ -36,7 +40,7 @@ const Features = () => {
             ))}
           </Slider>
         </Col>
-        <Col sm={6} className="sliderImgCont" >
+        <Col sm={6} className="sliderImgCont">
           <Slider
             //   autoplay={settings.autoplay}
             //   autoplaySpeed={settings.autoplaySpeed}
@@ -46,6 +50,8 @@ const Features = () => {
             slidesToShow={settings.slidesToShow}
             slidesToScroll={settings.slidesToScroll}
             className="sliderPic"
+            asNavFor={slider1.current}
+            ref={slider2}
           >
             {featuresData.map((feat) => (
               <Image src={feat.photo} />
