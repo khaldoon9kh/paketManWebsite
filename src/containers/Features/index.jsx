@@ -1,16 +1,14 @@
-import React from 'react';
-import './index.css';
-import {
-  Row, Col, Image, Container,
-} from 'react-bootstrap';
-import Slider from 'react-slick';
-import SingleFeature from '../../components/SingleFeature';
-import featuresData from './dataFeatures';
+import React from "react";
+import "./index.css";
+import { Row, Col, Image, Container } from "react-bootstrap";
+import Slider from "react-slick";
+import SingleFeature from "../../components/SingleFeature";
+import featuresData from "./dataFeatures";
 
 const Features = () => {
   const settings = {
-    autoplay: true,
-    autoplaySpeed: 2000,
+    // autoplay: true,
+    // autoplaySpeed: 2000,
     dots: true,
     speed: 500,
     slidesToShow: 1,
@@ -25,11 +23,9 @@ const Features = () => {
           <h2>Features</h2>
         </Col>
       </Row>
-      <Row>
-        <Col>
-          <Slider
-            {...settings}
-          >
+      <Row className="sliderCont">
+        <Col sm={6} className="sliderTexts">
+          <Slider {...settings}>
             {featuresData.map((feat) => (
               <SingleFeature
                 key={feat.id}
@@ -40,10 +36,10 @@ const Features = () => {
             ))}
           </Slider>
         </Col>
-        <Col>
+        <Col sm={6} className="sliderPic">
           <Slider
-        //   autoplay={settings.autoplay}
-        //   autoplaySpeed={settings.autoplaySpeed}
+            //   autoplay={settings.autoplay}
+            //   autoplaySpeed={settings.autoplaySpeed}
             arrows={settings.arrows}
             dots={settings.dots}
             speed={settings.speed}
@@ -51,12 +47,13 @@ const Features = () => {
             slidesToScroll={settings.slidesToScroll}
           >
             {featuresData.map((feat) => (
-              <SingleFeature
-                key={feat.id}
-                photo={feat.photo}
-                featHead={feat.featHead}
-                featText={feat.featText}
-              />
+              //   <SingleFeature
+              //     key={feat.id}
+              //     photo={feat.photo}
+              //     featHead={feat.featHead}
+              //     featText={feat.featText}
+              //   />
+              <Image src={feat.photo} />
             ))}
           </Slider>
         </Col>

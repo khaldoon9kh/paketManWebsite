@@ -30,3 +30,15 @@ height: 43px; */
   letter-spacing: normal;
   line-height: normal;
 }
+
+.sliderCont {
+  display: flex;
+}
+
+/* .sliderTexts {
+  width: 50%;
+}
+
+.sliderPic {
+  width: 50%;
+} */
