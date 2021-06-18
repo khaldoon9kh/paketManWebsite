@@ -12,18 +12,10 @@
 
 .featureTitleText {
   font-family: "Tajawal";
-  /*font-weight: bold;
-    color: #5000b7;
-    font-size: 36px; */
-  /* 
-    width: 143px;
-height: 43px; */
   font-style: normal;
   letter-spacing: normal;
   line-height: normal;
-  /* Text style for "Features" */
   color: #5000b7;
-  /* font-family: Exo; */
   font-size: 3rem;
   font-weight: 800;
   font-style: normal;
@@ -39,10 +31,6 @@ height: 43px; */
   align-items: center;
 }
 
-/* .sliderTexts {
-  width: 50%;
-}*/
-
 .sliderPic {
   width: 370px;
   height: 370px;
@@ -52,4 +40,18 @@ height: 43px; */
 .sliderImgCont {
   display: flex;
   justify-content: center;
+}
+
+.custumeDot {
+  width: 20px;
+  height: 20px;
+  border: 1px solid yellow;
+  border-radius: 50%;
+}
+
+.slick-active .custumeDot {
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+  border-radius: 50%;
 }

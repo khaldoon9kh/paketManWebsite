@@ -12,12 +12,14 @@ const Features = () => {
   const settings = {
     autoplay: true,
     autoplaySpeed: 2000,
+    // fade: true,
+    asNavFor: slider2.current,
     dots: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    asNavFor: slider2.current,
+    customPaging: (i) => <div className="custumeDot"></div>,
   };
 
   return (
@@ -42,10 +44,7 @@ const Features = () => {
         </Col>
         <Col sm={6} className="sliderImgCont">
           <Slider
-            //   autoplay={settings.autoplay}
-            //   autoplaySpeed={settings.autoplaySpeed}
             arrows={settings.arrows}
-            dots={settings.dots}
             speed={settings.speed}
             slidesToShow={settings.slidesToShow}
             slidesToScroll={settings.slidesToScroll}
