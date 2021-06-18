@@ -1,10 +1,33 @@
-:root {
-    --main-quotes-bg-color: rgba(206, 238, 248, 0.397);
-    --quote-text-color: #002736;
-  }
-  
-  .features {
-    background-color: red;
-    color: var(--quote-text-color);
-    padding: 3rem 0;
-  }
+ 
+.features {
+    background-color: #5000b7;
+    padding: 50px 150px;
+}
+
+.featureTitle{
+    width: 200px;
+    height: 51px;
+    background-color: #ffec00;
+    border-radius: 50px;
+}
+
+.featureTitleText{
+    font-family: 'Tajawal';
+    /*font-weight: bold;
+    color: #5000b7;
+    font-size: 36px; */
+/* 
+    width: 143px;
+height: 43px; */
+font-style:normal;
+letter-spacing: normal;
+line-height: normal;
+/* Text style for "Features" */
+color: #5000b7;
+/* font-family: Exo; */
+font-size: 3rem;
+font-weight:800;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}

@@ -7,18 +7,25 @@ import featuresData from "./dataFeatures";
 
 const Features = () => {
     const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
     };
   
     return (
-        <Container className="features">
+        <Container fluid className="features">
+            <Row className="featureTitle">
+                <Col className="featureTitleText">
+                    <h2>Features</h2>
+                </Col>
+            </Row>
           <Slider
+          autoplay={settings.autoplay}
+          autoplaySpeed={settings.autoplaySpeed}
             dots={settings.dots}
-            infinite={settings.infinite}
             speed={settings.speed}
             slidesToShow={settings.slidesToShow}
             slidesToScroll={settings.slidesToScroll}
