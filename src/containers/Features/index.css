@@ -3,7 +3,7 @@
   padding: 50px 150px;
 }
 
-.featureTitle {
+.featuresTitle {
   width: 200px;
   height: 51px;
   background-color: #ffec00;
@@ -33,6 +33,9 @@ height: 43px; */
 
 .sliderCont {
   display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 /* .sliderTexts {

@@ -8,12 +8,12 @@ const SingleFeature = ({ featHead, featText }) => {
     <Container className="featureBox">
       <Row>
         <Col>
-          <h2 className="feature">{featHead}</h2>
+          <h2 className="featureTitle">{featHead}</h2>
         </Col>
       </Row>
       <Row>
         <Col>
-          <p>{featText}</p>
+          <p className="featureText">{featText}</p>
         </Col>
       </Row>
     </Container>

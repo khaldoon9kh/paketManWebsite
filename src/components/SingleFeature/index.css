@@ -2,12 +2,24 @@
 .featureBox {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
-.feature {
-  font-style: italic;
+.featureTitle {
+  /* Style for "SPEED" */
+  width: 206px;
+  height: 71px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  /* Text style for "SPEED" */
+  color: #ffffff;
+  font-family: "Tajawal";
+  font-size: 60px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 4.5px;
+  line-height: normal;
 }
 
 .featImg {
@@ -16,4 +28,21 @@
   width: 370px;
   margin: 0.5rem 0;
   display: block;
+}
+
+.featureText {
+  /* Style for "dunt ut la" */
+  /* width: 400px;
+  height: 150px; */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  /* Text style for "dunt ut la" */
+  color: #ffffff;
+  font-family: "Tajawal";
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
 }

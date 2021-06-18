@@ -18,7 +18,7 @@ const Features = () => {
 
   return (
     <Container fluid className="features">
-      <Row className="featureTitle">
+      <Row className="featuresTitle">
         <Col className="featureTitleText">
           <h2>Features</h2>
         </Col>
