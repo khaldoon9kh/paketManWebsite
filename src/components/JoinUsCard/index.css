@@ -1,0 +1,25 @@
+.cardCont {
+  width: 104px;
+  height: 115px;
+  background-color: ivory;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardTitle {
+  color: #414042;
+  font-family: "Tajawal";
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.cardImg {
+  width: 50px;
+  height: 50px;
+}

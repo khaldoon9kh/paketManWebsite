@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import NavBar from "./containers/NavBar";
 import Header from "./containers/Header";
 import Features from "./containers/Features";
+import JoinUs from "./containers/JoinUs";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NavBar />
       <Header />
       <Features />
+      <JoinUs />
     </>
   );
 }

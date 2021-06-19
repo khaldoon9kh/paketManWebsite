@@ -1,0 +1,23 @@
+.JoinUSContainer {
+  background-color: #5000b7;
+  padding: 25px 150px;
+}
+
+.joinUsTitle {
+  margin: 10px;
+}
+
+.joinUsTitle h2 {
+  color: #ffec00;
+  font-family: "Tajawal";
+  font-size: 95px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.cardCont {
+  width: 104px;
+  height: 115px;
+}
