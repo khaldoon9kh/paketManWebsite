@@ -3,8 +3,12 @@ import { Row, Col, Image, Container, Card } from "react-bootstrap";
 import "./index.css";
 
 const JoinUsCard = ({ cardLogo, cardTitle }) => {
+  const handleSelect = () => {
+    console.log("clicked");
+  };
+
   return (
-    <Container className="cardCont">
+    <Container className="cardCont" onClick={handleSelect}>
       <Row>
         <h4 className="cardTitle">{cardTitle}</h4>
       </Row>
