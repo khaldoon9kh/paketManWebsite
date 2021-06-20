@@ -1,0 +1,22 @@
+.formCont {
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  background-color: #ffec00;
+  width: 75%;
+}
+
+.formCont .row {
+  margin-top: 10px;
+}
+
+.submitButtonCol {
+  display: flex;
+  justify-content: center;
+}
+
+.submitButton {
+  background-color: #5000b7;
+}

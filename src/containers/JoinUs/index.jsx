@@ -3,6 +3,7 @@ import { Row, Col, Image, Container } from "react-bootstrap";
 import "./index.css";
 import JoinUsCard from "../../components/JoinUsCard";
 import cardsData from "./cardsData";
+import JoinUsForm from "../../components/JoinUSForm";
 
 const JoinUs = () => {
   return (
@@ -18,6 +19,11 @@ const JoinUs = () => {
             <JoinUsCard cardLogo={data.cardLogo} cardTitle={data.cardTitle} />
           </Col>
         ))}
+      </Row>
+      <Row>
+        <Col className="formCol">
+          <JoinUsForm />
+        </Col>
       </Row>
     </Container>
   );

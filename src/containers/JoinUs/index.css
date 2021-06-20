@@ -1,10 +1,10 @@
 .JoinUSContainer {
   background-color: #5000b7;
-  padding: 25px 150px;
+  padding: 1.563rem 9.375rem;
 }
 
 .joinUsTitle {
-  margin: 10px;
+  margin: 0.625rem;
 }
 
 .joinUsTitle h2 {
@@ -20,4 +20,9 @@
 .cardCont {
   width: 104px;
   height: 115px;
+}
+
+.formCol {
+  display: flex;
+  justify-content: center;
 }
