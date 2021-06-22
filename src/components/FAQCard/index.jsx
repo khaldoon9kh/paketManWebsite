@@ -3,7 +3,6 @@ import { Accordion, Card } from "react-bootstrap";
 import "./index.css";
 
 const FAQCard = ({ faqQuestion, faqAnswer, eventNumber }) => {
-  console.log(eventNumber);
   return (
     <Card className="faqCard">
       <Accordion.Toggle

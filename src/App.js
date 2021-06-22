@@ -7,6 +7,7 @@ import Header from "./containers/Header";
 import Features from "./containers/Features";
 import JoinUs from "./containers/JoinUs";
 import FAQ from "./containers/FAQ";
+import ContactUs from "./containers/ContactUS";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Features />
       <JoinUs />
       <FAQ />
+      <ContactUs />
     </>
   );
 }

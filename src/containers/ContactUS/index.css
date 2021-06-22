@@ -1,11 +1,11 @@
-.faqContainer {
-  background-color: #ffec00;
-  padding: 25px 100px;
+.contactUsCont {
+  background-color: #edf0f7;
+  padding: 25px 150px;
   justify-content: space-around;
   align-content: center;
 }
 
-.faqTitle {
+.contactUsTitle {
   max-width: 200px;
   border-radius: 50px;
   background-color: #5000b7;
@@ -18,12 +18,13 @@
   margin-bottom: 24px;
 }
 
-.faqImgCont {
+.contactUsImgCont,
+.contactUsForm {
   display: flex;
   justify-content: center;
 }
 
-.faqImg {
-  width: 75%;
+.contactUsImg {
+  width: auto;
   height: auto;
 }
