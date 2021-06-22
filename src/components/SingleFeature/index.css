@@ -1,0 +1,19 @@
+.featureTitle {
+  color: #ffffff;
+  font-family: "Tajawal";
+  font-size: 60px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 4.5px;
+  line-height: normal;
+}
+
+.featureText {
+  color: #ffffff;
+  font-family: "Tajawal";
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}

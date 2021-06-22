@@ -6,6 +6,7 @@ import NavBar from "./containers/NavBar";
 import Header from "./containers/Header";
 import Features from "./containers/Features";
 import JoinUs from "./containers/JoinUs";
+import FAQ from "./containers/FAQ";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Features />
       <JoinUs />
+      <FAQ />
     </>
   );
 }

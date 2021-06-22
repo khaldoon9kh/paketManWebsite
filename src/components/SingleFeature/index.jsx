@@ -3,7 +3,6 @@ import { Row, Col, Image, Container } from "react-bootstrap";
 import "./index.css";
 
 const SingleFeature = ({ featHead, featText }) => {
-  console.log(featText);
   return (
     <Container className="featureBox">
       <Row>

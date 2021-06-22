@@ -1,0 +1,30 @@
+.faqContainer {
+  background-color: #ffec00;
+  padding: 25px 100px;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.faqTitle {
+  max-width: 190px;
+  border-radius: 50px;
+  background-color: #5000b7;
+  align-items: stretch;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  font-family: "Tajawal";
+  font-weight: bold;
+  padding-top: 5px;
+  margin-bottom: 24px;
+}
+
+.faqImgCont {
+  display: flex;
+  justify-content: center;
+}
+
+.faqImg {
+  width: 75%;
+  height: auto;
+}
