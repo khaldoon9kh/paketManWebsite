@@ -8,13 +8,13 @@ import PhoneIcon from "../../assests/pics/phone.svg";
 const Location = () => {
   return (
     <Container fluid className="locationCont" expand="lg">
-      <Row>
-        <Col>
+      <Row className="infoCont">
+        <Col className="md-3">
           <Row>
-            <Col>
-              <Image src={PinIcon} />
+            <Col className="iconCol">
+              <Image className="iconImg" src={PinIcon} />
             </Col>
-            <Col>
+            <Col className="textCol">
               <p>
                 Kayabaşı Mah. Akzambak Sk ADIM İSTANBUL Sitesi B2 Blok Dukkan:
                 T20 Başakşehir - İstanbul
@@ -22,22 +22,22 @@ const Location = () => {
             </Col>
           </Row>
         </Col>
-        <Col>
+        <Col className="md-3">
           <Row>
-            <Col>
-              <Image src={EmailIcon} />
+            <Col className="iconCol">
+              <Image className="iconImg" src={EmailIcon} />
             </Col>
-            <Col>
+            <Col className="textCol">
               <p>Paketman@gmail.com</p>
             </Col>
           </Row>
         </Col>
-        <Col>
+        <Col className="md-3">
           <Row>
-            <Col>
-              <Image src={PhoneIcon} />
+            <Col className="iconCol">
+              <Image className="iconImg" src={PhoneIcon} />
             </Col>
-            <Col>
+            <Col className="textCol">
               <p>0531 634 56 60</p>
             </Col>
           </Row>
