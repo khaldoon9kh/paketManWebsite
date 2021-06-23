@@ -9,6 +9,7 @@ import JoinUs from "./containers/JoinUs";
 import FAQ from "./containers/FAQ";
 import ContactUs from "./containers/ContactUS";
 import Location from "./containers/Location";
+import Footer from "./containers/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <FAQ />
       <ContactUs />
       <Location />
+      <Footer />
     </>
   );
 }
