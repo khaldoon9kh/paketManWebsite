@@ -1,0 +1,30 @@
+.LocationCont {
+  background-color: #edf0f7;
+  padding: 25px 150px;
+  justify-content: space-around;
+  align-content: center;
+}
+
+/* .contactUsTitle {
+  max-width: 200px;
+  border-radius: 50px;
+  background-color: #5000b7;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  font-family: "Tajawal";
+  font-weight: bold;
+  padding-top: 5px;
+  margin-bottom: 24px;
+}
+
+.contactUsImgCont,
+.contactUsForm {
+  display: flex;
+  justify-content: center;
+}
+
+.contactUsImg {
+  width: auto;
+  height: auto;
+} */

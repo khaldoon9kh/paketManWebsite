@@ -8,6 +8,7 @@ import Features from "./containers/Features";
 import JoinUs from "./containers/JoinUs";
 import FAQ from "./containers/FAQ";
 import ContactUs from "./containers/ContactUS";
+import Location from "./containers/Location";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <JoinUs />
       <FAQ />
       <ContactUs />
+      <Location />
     </>
   );
 }
