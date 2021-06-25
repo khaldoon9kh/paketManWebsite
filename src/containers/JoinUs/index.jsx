@@ -7,17 +7,15 @@ import JoinUsForm from "../../components/JoinUSForm";
 
 const JoinUs = () => {
   return (
-    <Container fluid className="JoinUSContainer" expand="lg">
+    <Container fluid className="joinUSContainer" expand="lg">
       <Row>
         <Col className="joinUsTitle">
           <h2 className="text-center">Join Us</h2>
         </Col>
       </Row>
-      <Row>
+      <Row className="joinUsCardsCont">
         {cardsData.map((data) => (
-          <Col className=".col-md-3">
-            <JoinUsCard cardLogo={data.cardLogo} cardTitle={data.cardTitle} />
-          </Col>
+          <JoinUsCard cardLogo={data.cardLogo} cardTitle={data.cardTitle} />
         ))}
       </Row>
       <Row>

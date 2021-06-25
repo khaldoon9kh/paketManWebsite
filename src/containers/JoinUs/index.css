@@ -1,6 +1,10 @@
-.JoinUSContainer {
+.joinUSContainer {
   background-color: #5000b7;
-  padding: 1.563rem 9.375rem;
+  padding: 2rem 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
 }
 
 .joinUsTitle {
@@ -10,19 +14,23 @@
 .joinUsTitle h2 {
   color: #ffec00;
   font-family: "Tajawal";
-  font-size: 95px;
+  font-size: 6.25rem;
   font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
 }
 
-.cardCont {
-  width: 104px;
-  height: 115px;
+.joinUsCardsCont {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .formCol {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 800px) {
+  .joinUSContainer {
+    padding: 1rem;
+  }
 }
