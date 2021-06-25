@@ -3,9 +3,7 @@
   font-family: "Tajawal";
   font-size: 60px;
   font-weight: bold;
-  font-style: normal;
   letter-spacing: 4.5px;
-  line-height: normal;
 }
 
 .featureText {
@@ -13,7 +11,10 @@
   font-family: "Tajawal";
   font-size: 18px;
   font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
+}
+
+@media (max-width: 800px) {
+  .featureBox {
+    text-align: center;
+  }
 }

@@ -6,14 +6,10 @@ const SingleFeature = ({ featHead, featText }) => {
   return (
     <Container className="featureBox">
       <Row>
-        <Col>
-          <h2 className="featureTitle">{featHead}</h2>
-        </Col>
+        <h2 className="featureTitle">{featHead}</h2>
       </Row>
       <Row>
-        <Col>
-          <p className="featureText">{featText}</p>
-        </Col>
+        <p className="featureText">{featText}</p>
       </Row>
     </Container>
   );

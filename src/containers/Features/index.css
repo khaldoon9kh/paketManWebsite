@@ -1,10 +1,11 @@
-.features {
+.featuresContainer {
   background-color: #5000b7;
   padding: 2rem 10rem;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-content: space-between;
 }
 
 .featuresTitle {
@@ -14,6 +15,7 @@
   border-radius: 3.5rem;
   display: flex;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .featureTitleText {
@@ -28,15 +30,15 @@
 
 .sliderCont {
   display: flex;
-  margin-top: 10px;
+  width: 100%;
+  margin-top: 1rem;
   justify-content: center;
-  align-content: center;
   align-items: center;
 }
 
 .sliderPic {
-  width: 370px;
-  height: 370px;
+  width: 50%;
+  height: auto;
   justify-content: center;
 }
 
@@ -46,15 +48,39 @@
 }
 
 .custumeDot {
-  width: 20px;
-  height: 20px;
-  border: 1px solid yellow;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 0.0625rem solid yellow;
   border-radius: 50%;
 }
 
 .slick-active .custumeDot {
-  width: 20px;
-  height: 20px;
+  width: 1.5rem;
+  height: 1.5rem;
   background-color: yellow;
   border-radius: 50%;
+}
+
+@media (max-width: 800px) {
+  .sliderCont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .featuresContainer {
+    background-color: #5000b7;
+    padding: 1rem 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sliderImgCont {
+    margin-top: 3rem;
+  }
 }

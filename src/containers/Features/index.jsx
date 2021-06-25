@@ -12,10 +12,10 @@ const Features = () => {
   const settings = {
     autoplay: true,
     autoplaySpeed: 2000,
-    // fade: true,
     asNavFor: slider2.current,
+    fade: true,
     dots: true,
-    speed: 500,
+    speed: 1500,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
@@ -23,7 +23,7 @@ const Features = () => {
   };
 
   return (
-    <Container fluid className="features">
+    <Container fluid className="featuresContainer">
       <Row className="featuresTitle">
         <h2 className="featureTitleText">Features</h2>
       </Row>
@@ -51,7 +51,7 @@ const Features = () => {
             ref={slider2}
           >
             {featuresData.map((feat) => (
-              <Image src={feat.photo} />
+              <Image src={feat.photo} key={feat.id} />
             ))}
           </Slider>
         </Col>
