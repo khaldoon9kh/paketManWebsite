@@ -28,7 +28,6 @@
 .headerTextCol {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
 }
 
 .headerTitleCol {
@@ -47,6 +46,21 @@
   padding: 0.25rem 0.5rem;
 }
 
+/* fries icon */
+.headerTitleCol::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 32rem;
+  top: 0;
+  width: 30%;
+  height: 25%;
+  background-image: url("../../assests/fries.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
 .headerImg {
   display: flex;
   justify-content: center;
@@ -60,9 +74,9 @@
   display: block;
   position: absolute;
   left: 1.5rem;
-  top: 1rem;
-  width: 112%;
-  height: 112%;
+  top: 4rem;
+  width: 120%;
+  height: 120%;
   background-image: url("../../assests/pics/yellow-Cercle.svg");
   background-repeat: no-repeat;
   background-position: 50% 0;
@@ -70,6 +84,7 @@
 }
 
 .headerBody {
+  width: 30rem;
   color: white;
   font-family: "Tajawal";
   margin-top: 2rem;
@@ -78,7 +93,7 @@
 }
 
 .mobilePhoto {
-  width: 13rem;
+  width: 15rem;
   height: auto;
   position: relative;
 }
@@ -91,5 +106,22 @@
 
   .headerImg::before {
     visibility: hidden;
+  }
+  .headerBody {
+    width: auto;
+  }
+
+  .headerTitleCol::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 13rem;
+    top: 0;
+    width: 30%;
+    height: 25%;
+    background-image: url("../../assests/fries.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
   }
 }
