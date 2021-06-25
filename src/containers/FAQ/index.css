@@ -1,21 +1,33 @@
 .faqContainer {
   background-color: #ffec00;
-  padding: 25px 100px;
-  justify-content: space-around;
-  align-content: center;
+  padding: 2rem 10rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
 }
 
 .faqTitle {
-  max-width: 200px;
-  border-radius: 50px;
+  width: 15.5rem;
+  height: 3.5rem;
   background-color: #5000b7;
-  text-align: center;
-  font-size: 25px;
-  color: white;
+  border-radius: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+}
+
+.faqTitleText {
   font-family: "Tajawal";
-  font-weight: bold;
-  padding-top: 5px;
-  margin-bottom: 24px;
+  color: #ffec00;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.faqTextCont {
 }
 
 .faqImgCont {
@@ -26,4 +38,16 @@
 .faqImg {
   width: 75%;
   height: auto;
+}
+
+@media (max-width: 800px) {
+  .faqContainer {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+  }
+  .faqTextCont {
+    display: flex;
+    flex-direction: column;
+  }
 }
