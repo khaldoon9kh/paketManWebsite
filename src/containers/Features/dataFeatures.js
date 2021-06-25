@@ -1,32 +1,35 @@
-import FeatureImg from "../../assests/pics/featureImg.png";
+import AllForYou from "../../assests/featuresPic/allForYou.png";
+import BeBoss from "../../assests/featuresPic/beBoss.png";
+import Offers from "../../assests/featuresPic/offers.png";
+import Tracking from "../../assests/featuresPic/tracking.png";
 
 const featuresData = [
   {
-    photo: FeatureImg,
-    featHead: "Speed",
+    photo: AllForYou,
+    featHead: "All for you",
     featText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      " With PaketMan you will no longer need to ask about the phone number and wait every restaurant response, it's all available in one place, organised, updated, filtered and nicely designed.",
     id: "1",
   },
   {
-    photo: FeatureImg,
-    featHead: "Speed",
+    photo: BeBoss,
+    featHead: "Be The Boss",
     featText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ",
+      "PaketMan offers you a lot of options and lets you choose what you like. The options start from the categories where you can order from the different cuisines. After that there will be different restaurants offering the same meal, and lastly you will get to choose how you want to complete the payment process.",
     id: "2",
   },
   {
-    photo: FeatureImg,
-    featHead: "Speed",
+    photo: Offers,
+    featHead: "Special Offers",
     featText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Be part of our community and discover what is new from the offers section, every day we have a big offer beside the other opportunities in the offers page, and the offers in the restaurants page. Loyalty system is also designed to provide you with many gifts and meals as you use the app.",
     id: "3",
   },
   {
-    photo: FeatureImg,
-    featHead: "Speed",
+    photo: Tracking,
+    featHead: "Track and Rate",
     featText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ",
+      "Track your order status through the app each step at a time, And rate your order to ensure fast and reliable services.",
     id: "4",
   },
 ];

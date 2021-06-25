@@ -1,20 +1,23 @@
 .features {
   background-color: #5000b7;
-  padding: 50px 150px;
+  padding: 2rem 10rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .featuresTitle {
-  width: 200px;
-  height: 51px;
+  width: 15.5rem;
+  height: 3.5rem;
   background-color: #ffec00;
-  border-radius: 50px;
+  border-radius: 3.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .featureTitleText {
   font-family: "Tajawal";
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
   color: #5000b7;
   font-size: 3rem;
   font-weight: 800;

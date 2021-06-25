@@ -25,9 +25,7 @@ const Features = () => {
   return (
     <Container fluid className="features">
       <Row className="featuresTitle">
-        <Col className="featureTitleText">
-          <h2>Features</h2>
-        </Col>
+        <h2 className="featureTitleText">Features</h2>
       </Row>
       <Row className="sliderCont">
         <Col sm={6} className="sliderTexts">
