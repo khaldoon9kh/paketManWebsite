@@ -46,7 +46,7 @@ const JoinUsForm = () => {
   return (
     <Container className="formCont">
       <Form>
-        <Row>
+        <Row className="formRowRes">
           <Col>
             <Form.Control
               placeholder="First name"
@@ -62,7 +62,7 @@ const JoinUsForm = () => {
             />
           </Col>
         </Row>
-        <Row>
+        <Row className="formRowRes">
           <Col>
             <Form.Control
               type="email"
