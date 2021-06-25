@@ -3,15 +3,15 @@ import { Row, Col, Image, Container } from "react-bootstrap";
 import "./index.css";
 import MobilePhoto from "../../assests/pics/MobilePhoto.png";
 import YellowCercle from "../../assests/pics/yellow-Cercle.svg";
+import BitMap from '../../assests/Bitmap.svg'
 
 const Header = () => {
   return (
     <Container fluid className="headerContainer" expand="lg">
-      <Container className="itemsContainer">
         <Row className="headerMainRow">
-          <Col className="headerText">
-            <Row>
-              <Col>
+          <Col className="headerTextCol" xs={10} md={6}>
+            <Row className="headerTitleRow">
+              <Col className="headerTitleCol">
                 <h1 className="headerTitle">PaketMan</h1>
               </Col>
             </Row>
@@ -30,18 +30,14 @@ const Header = () => {
               </Col>
             </Row>
           </Col>
-          <Col className="headerImg">
+          <Col className="headerImg" xs={6} md={4}>
             <Image
               src={MobilePhoto}
               className="mobilePhoto"
               alt="mobile showing PaketMan App"
             />
-            <svg className="yellowCercle">{YellowCercle}</svg>
-            {/* <div className='yellowCercle'>
-                    </div> */}
           </Col>
         </Row>
-      </Container>
     </Container>
   );
 };
