@@ -1,27 +1,24 @@
 .navBarStyle {
   background-color: #5000b8;
+  padding: 0 10rem;
 }
 
 .navBarMainCont {
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-.navBarContainer {
-  justify-content: left;
-  background-color: violet;
+  display: flex;
+  justify-content: center;
 }
 
 .logoContainer {
   display: flex;
   justify-content: flex-end;
-  height: 68px;
-  width: 170px;
+  height: auto;
+  width: 10.6rem;
+  margin: 0.5rem;
 }
+
 .paketManLogo {
-  height: 68px;
-  width: 156px;
-  margin-top: 10px;
+  height: 100%;
+  width: 100%;
 }
 
 .navbar-nav {
@@ -29,15 +26,59 @@
   width: 100%;
   justify-content: center;
 }
-.navbar-nav .nav-link {
+
+.navBarItemContainer div {
+  text-align: center;
+  background-color: yellow;
+  border-radius: 10rem;
+  width: 7.5rem;
+  height: 1.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.navbar-nav p {
   color: #5000b8;
   font-family: "Tajawal";
   font-weight: bold;
-  background-color: yellow;
-  border-radius: 10rem;
-  width: 120px;
-  height: 30px;
-  /* margin: 0 10px; */
   text-align: center;
-  /* padding-top: 2px; */
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .navBarStyle {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-content: center;
+  }
+  .navBarMainCont {
+    margin: 1rem;
+    justify-content: center;
+  }
+
+  .navBarItemContainer {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navBarStyle {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-content: center;
+  }
+  .navBarMainCont {
+    margin: 0.5rem;
+    justify-content: center !important;
+  }
+
+  .navBarItemContainer {
+    justify-content: center;
+  }
 }

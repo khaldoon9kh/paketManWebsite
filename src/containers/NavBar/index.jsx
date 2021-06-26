@@ -4,30 +4,42 @@ import PaketmanLogo from "../../assests/pics/PaketManWordmark@1X.png";
 import "./index.css";
 
 const NavBar = () => {
+  // const anchor = document.querySelector('#some-id')
+  // anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })
+
   return (
-    <Navbar collapseOnSelect expand="lg" className="navBarStyle">
+    <Navbar sticky="top" collapseOnSelect expand="xl" className="navBarStyle">
       <Container className="navBarMainCont">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          {/* <Container id='navBarItems'> */}
           <Nav className="mr-auto">
             <Container className="navBarItemContainer">
-              <Nav.Link>Main Page</Nav.Link>
-              <Nav.Link>Features</Nav.Link>
-              <Nav.Link>Join Us</Nav.Link>
-              <Nav.Link>FAQ</Nav.Link>
-              <Nav.Link>Contact Us</Nav.Link>
+              <div>
+                <p>Main Page</p>
+              </div>
+              <div>
+                <p>Features</p>
+              </div>
+              <div>
+                <p>Join Us</p>
+              </div>
+              <div>
+                <p>FAQ</p>
+              </div>
+              <div>
+                <p>Contact Us</p>
+              </div>
             </Container>
           </Nav>
         </Navbar.Collapse>
-        <Navbar.Brand className="logoContainer" href="#home">
-          <Image
-            src={PaketmanLogo}
-            className="paketManLogo"
-            alt="PaketMan Logo"
-          />
-        </Navbar.Brand>
       </Container>
+      <Navbar.Brand className="logoContainer" href="#home">
+        <Image
+          src={PaketmanLogo}
+          className="paketManLogo"
+          alt="PaketMan Logo"
+        />
+      </Navbar.Brand>
     </Navbar>
   );
 };
