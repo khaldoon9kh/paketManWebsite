@@ -7,10 +7,8 @@ import JoinUsForm from "../../components/JoinUSForm";
 const ContactUs = () => {
   return (
     <Container fluid className="contactUsCont" expand="lg">
-      <Row>
-        <Col className="contactUsTitle">
-          <h2>Contact Us</h2>
-        </Col>
+      <Row className="contactUsTitleRow">
+        <h2 className="contactUsTitle">Contact Us</h2>
       </Row>
       <Row>
         <Col className="contactUsForm">

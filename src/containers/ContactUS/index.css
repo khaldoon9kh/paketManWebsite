@@ -1,21 +1,30 @@
 .contactUsCont {
   background-color: #edf0f7;
-  padding: 25px 150px;
-  justify-content: space-around;
-  align-content: center;
+  padding: 2rem 10rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.contactUsTitleRow {
+  width: 15.5rem;
+  height: 3.5rem;
+  background-color: #5000b7;
+  border-radius: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
 }
 
 .contactUsTitle {
-  max-width: 200px;
-  border-radius: 50px;
-  background-color: #5000b7;
-  text-align: center;
-  font-size: 25px;
-  color: white;
   font-family: "Tajawal";
-  font-weight: bold;
-  padding-top: 5px;
-  margin-bottom: 24px;
+  color: #ffec00;
+  font-size: 3rem;
+  font-weight: 800;
 }
 
 .contactUsImgCont,
@@ -27,4 +36,12 @@
 .contactUsImg {
   width: auto;
   height: auto;
+}
+
+@media (max-width: 800px) {
+  .contactUsCont {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+  }
 }
