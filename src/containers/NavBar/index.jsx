@@ -1,11 +1,52 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Navbar, Nav, Image, Container } from "react-bootstrap";
+import { Link } from "react-scroll";
 import PaketmanLogo from "../../assests/pics/PaketManWordmark@1X.png";
 import "./index.css";
 
 const NavBar = () => {
-  // const anchor = document.querySelector('#some-id')
-  // anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })
+  const navsData = [
+    {
+      navTitle: "Features",
+      navId: "features",
+    },
+    {
+      navTitle: "Join Us",
+      navId: "joinUs",
+    },
+    {
+      navTitle: "FAQ",
+      navId: "faq",
+    },
+    {
+      navTitle: "Contact Us",
+      navId: "contactUs",
+    },
+  ];
+
+  // useEffect(() => {
+  //   console.log(divClass)
+  //   // setDivClass(divClass)
+  //   const anchor = document.querySelector(divClass)
+  //   anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })
+  // }, [divClass]);
+
+  // const handleClick = (navId)=>{
+  //   console.log(divClass)
+  //   // setDivClass(navId);
+  //   // let anchor = document.querySelector(divClass);
+  //   // anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })
+  // };
+
+  const NavItemsCell = ({ navTitle, navId }) => {
+    return (
+      <div>
+        <Link to={navId} spy={true} smooth={true}>
+          <p>{navTitle}</p>
+        </Link>
+      </div>
+    );
+  };
 
   return (
     <Navbar sticky="top" collapseOnSelect expand="xl" className="navBarStyle">
@@ -15,6 +56,18 @@ const NavBar = () => {
           <Nav className="mr-auto">
             <Container className="navBarItemContainer">
               <div>
+                <Link activeClass="active" to="home" spy={true} smooth={true}>
+                  <p>Main Page</p>
+                </Link>
+              </div>
+              {navsData.map((data, index) => (
+                <NavItemsCell
+                  navId={data.navId}
+                  navTitle={data.navTitle}
+                  key={index}
+                />
+              ))}
+              {/* <div>
                 <p>Main Page</p>
               </div>
               <div>
@@ -28,7 +81,7 @@ const NavBar = () => {
               </div>
               <div>
                 <p>Contact Us</p>
-              </div>
+              </div> */}
             </Container>
           </Nav>
         </Navbar.Collapse>

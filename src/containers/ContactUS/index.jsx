@@ -6,7 +6,7 @@ import JoinUsForm from "../../components/JoinUSForm";
 
 const ContactUs = () => {
   return (
-    <Container fluid className="contactUsCont" expand="lg">
+    <Container id="contactUs" fluid className="contactUsCont" expand="lg">
       <Row className="contactUsTitleRow">
         <h2 className="contactUsTitle">Contact Us</h2>
       </Row>

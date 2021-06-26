@@ -7,7 +7,7 @@ import Fries from "../../assests/fries.svg";
 
 const Header = () => {
   return (
-    <Container fluid className="headerContainer" expand="lg">
+    <Container id="home" fluid className="headerContainer" expand="lg">
       <Row className="headerMainRow">
         <Col className="headerTextCol" xs={10} md={6}>
           <div className="headerTitleCol">

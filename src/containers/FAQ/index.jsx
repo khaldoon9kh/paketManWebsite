@@ -15,7 +15,7 @@ import FAQCard from "../../components/FAQCard";
 
 const FAQ = () => {
   return (
-    <Container fluid className="faqContainer" expand="lg">
+    <Container id="faq" fluid className="faqContainer" expand="lg">
       <Row className="faqTitle">
         <h2 className="faqTitleText">FAQ</h2>
       </Row>

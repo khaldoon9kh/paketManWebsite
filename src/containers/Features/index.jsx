@@ -23,7 +23,7 @@ const Features = () => {
   };
 
   return (
-    <Container fluid className="featuresContainer">
+    <Container id="features" fluid className="featuresContainer">
       <Row className="featuresTitle">
         <h2 className="featureTitleText">Features</h2>
       </Row>
