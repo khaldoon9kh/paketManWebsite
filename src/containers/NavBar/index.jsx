@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Navbar, Nav, Image, Container } from "react-bootstrap";
 import { Link } from "react-scroll";
 import PaketmanLogo from "../../assests/pics/PaketManWordmark@1X.png";
@@ -23,20 +23,6 @@ const NavBar = () => {
       navId: "contactUs",
     },
   ];
-
-  // useEffect(() => {
-  //   console.log(divClass)
-  //   // setDivClass(divClass)
-  //   const anchor = document.querySelector(divClass)
-  //   anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })
-  // }, [divClass]);
-
-  // const handleClick = (navId)=>{
-  //   console.log(divClass)
-  //   // setDivClass(navId);
-  //   // let anchor = document.querySelector(divClass);
-  //   // anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })
-  // };
 
   const NavItemsCell = ({ navTitle, navId }) => {
     return (
@@ -67,21 +53,6 @@ const NavBar = () => {
                   key={index}
                 />
               ))}
-              {/* <div>
-                <p>Main Page</p>
-              </div>
-              <div>
-                <p>Features</p>
-              </div>
-              <div>
-                <p>Join Us</p>
-              </div>
-              <div>
-                <p>FAQ</p>
-              </div>
-              <div>
-                <p>Contact Us</p>
-              </div> */}
             </Container>
           </Nav>
         </Navbar.Collapse>

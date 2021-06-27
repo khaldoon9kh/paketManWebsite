@@ -1,6 +1,7 @@
 .navBarStyle {
   background-color: #5000b8;
   padding: 0 10rem;
+  transition: top 0.3s;
 }
 
 .navBarMainCont {
