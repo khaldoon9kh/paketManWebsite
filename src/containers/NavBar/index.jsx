@@ -49,7 +49,7 @@ const NavBar = () => {
   };
 
   return (
-    <Navbar sticky="top" collapseOnSelect expand="xl" className="navBarStyle">
+    <Navbar collapseOnSelect expand="xl" className="navBarStyle">
       <Container className="navBarMainCont">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
