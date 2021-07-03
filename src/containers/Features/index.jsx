@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import "./index.css";
 import { Row, Col, Image, Container } from "react-bootstrap";
 import Slider from "react-slick";
@@ -6,13 +6,20 @@ import SingleFeature from "../../components/SingleFeature";
 import featuresData from "./dataFeatures";
 
 const Features = () => {
-  const slider1 = useRef(null);
-  const slider2 = useRef(null);
+  const [nav1, setNav1] = useState(null);
+  const [nav2, setNav2] = useState(null);
+  const [slider1, setSlider1] = useState(null);
+  const [slider2, setSlider2] = useState(null);
+
+  useEffect(() => {
+    setNav1(slider1);
+    setNav2(slider2);
+  });
 
   const settings = {
     autoplay: true,
-    autoplaySpeed: 2000,
-    asNavFor: slider2.current,
+    autoplaySpeed: 5000,
+    asNavFor: ".slider-nav",
     fade: true,
     dots: true,
     speed: 1500,
@@ -22,6 +29,10 @@ const Features = () => {
     customPaging: (i) => <div className="custumeDot"></div>,
   };
 
+  const settingsPic = {
+    asNavFor: ".slider-for",
+  };
+
   return (
     <Container id="features" fluid className="featuresContainer">
       <Row className="featuresTitle">
@@ -29,7 +40,11 @@ const Features = () => {
       </Row>
       <Row className="sliderCont">
         <Col sm={6} className="sliderTexts">
-          <Slider {...settings} ref={slider1}>
+          <Slider
+            {...settings}
+            asNavFor={nav2}
+            ref={(slider) => setSlider1(slider)}
+          >
             {featuresData.map((feat) => (
               <SingleFeature
                 key={feat.id}
@@ -42,13 +57,15 @@ const Features = () => {
         </Col>
         <Col sm={6} className="sliderImgCont">
           <Slider
-            arrows={settings.arrows}
             speed={settings.speed}
             slidesToShow={settings.slidesToShow}
             slidesToScroll={settings.slidesToScroll}
+            fade={settings.fade}
+            arrows={settings.arrows}
             className="sliderPic"
-            asNavFor={slider1.current}
-            ref={slider2}
+            {...settingsPic}
+            asNavFor={nav1}
+            ref={(slider) => setSlider2(slider)}
           >
             {featuresData.map((feat) => (
               <Image src={feat.photo} key={feat.id} />
