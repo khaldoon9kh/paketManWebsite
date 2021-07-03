@@ -2,6 +2,7 @@ import React from "react";
 
 export default function FB(props) {
   return (
+    <a href='https://www.facebook.com/Paketmanapp/' target='_blank'>
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="18"
@@ -18,5 +19,6 @@ export default function FB(props) {
         </g>
       </g>
     </svg>
+    </a>
   );
 }

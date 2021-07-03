@@ -54,15 +54,9 @@ const Header = () => {
             <YT />
             <TIKTOK />
             <LINKEDIN />
-            {/* <Image src={FBIcon} /> */}
-            {/* <Image src={InstaIcon} />
-            <Image src={YTIcon} />
-            <Image src={TikTokIcon} />
-            <Image src={LinkedInIcon} /> */}
             <p>/paketmanapp</p>
           </Col>
         </Col>
-        {/* <Image className='friesImg' src={Fries}/> */}
         <Col className="headerImg" xs={6} md={4}>
           <Image
             src={MobilePhoto}
