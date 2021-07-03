@@ -98,6 +98,17 @@
   position: relative;
 }
 
+.downloadLinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.downloadLinks img {
+  width: 8.438rem;
+  height: auto;
+}
+
 @media (max-width: 800px) {
   .headerContainer {
     background-color: #5000b7;

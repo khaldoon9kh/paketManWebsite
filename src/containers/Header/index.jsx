@@ -25,6 +25,10 @@ const Header = () => {
               iusto odio dignis
             </p>
           </Col>
+          <Col className="downloadLinks">
+            <Image src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"/>
+            <Image src='https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg'/>
+          </Col>
         </Col>
         {/* <Image className='friesImg' src={Fries}/> */}
         <Col className="headerImg" xs={6} md={4}>
