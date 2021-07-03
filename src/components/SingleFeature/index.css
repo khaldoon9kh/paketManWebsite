@@ -11,6 +11,7 @@
   font-family: "Tajawal";
   font-size: 18px;
   font-weight: 400;
+  text-align: justify;
 }
 
 @media (max-width: 800px) {
