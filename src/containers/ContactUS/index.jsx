@@ -11,11 +11,11 @@ const ContactUs = () => {
         <h2 className="contactUsTitle">Contact Us</h2>
       </Row>
       <Row>
-        <Col className="contactUsForm">
-          <JoinUsForm />
-        </Col>
         <Col className="contactUsImgCont">
           <Image className="contactUsImg" src={ContactUsImg} />
+        </Col>
+        <Col className="contactUsForm">
+          <JoinUsForm />
         </Col>
       </Row>
     </Container>

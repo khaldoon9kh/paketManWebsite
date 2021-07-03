@@ -34,7 +34,12 @@
 }
 
 .contactUsImg {
-  width: auto;
+  width: 75%;
+  height: auto;
+}
+
+.contactUsForm .formCont {
+  width: 100%;
   height: auto;
 }
 
