@@ -26,7 +26,12 @@ const Footer = () => {
           <Image className="tMIcon" src={TMIcon} />
         </Col>
         <Col className="policyCol">
-          <p>Privacy Policy</p>
+          <a
+            href="https://docs.google.com/file/d/1Sn1I5EARN0ef63-x_l5CouD_PXmBJm3H/edit?filetype=msword&fbclid=IwAR1bwf98hOe2_0WQWrLOl4v7xznzbUCea32HZuWP7cNFzfUNStAHj41jDfg"
+            target="_blank"
+          >
+            <p>Privacy Policy</p>
+          </a>
           <p>Privacy Policy</p>
           <p>Privacy Policy</p>
         </Col>

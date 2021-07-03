@@ -20,7 +20,7 @@
 .socialCol img {
   margin: 0 5px;
   stroke: #edf0f7;
-  background-color: white;
+  /* background-color: white; */
 }
 
 .socialCol p {
@@ -42,6 +42,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  color: black;
 }
 
 .paketManFooterLogo {
