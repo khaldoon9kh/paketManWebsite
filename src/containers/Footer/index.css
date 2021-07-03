@@ -17,9 +17,9 @@
   align-items: center;
 }
 
-.socialCol img {
+.socialCol svg {
   margin: 0 5px;
-  stroke: #edf0f7;
+  /* stroke: #edf0f7; */
   /* background-color: white; */
 }
 
