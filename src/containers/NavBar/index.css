@@ -48,6 +48,10 @@
   margin: 0;
 }
 
+.navBarMainCont button {
+  border: 0.25rem solid yellow !important;
+}
+
 @media (max-width: 800px) {
   .navBarStyle {
     padding: 1rem;
