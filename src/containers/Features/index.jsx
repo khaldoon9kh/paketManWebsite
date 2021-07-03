@@ -4,6 +4,7 @@ import { Row, Col, Image, Container } from "react-bootstrap";
 import Slider from "react-slick";
 import SingleFeature from "../../components/SingleFeature";
 import featuresData from "./dataFeatures";
+import YellowCercle from "../../assests/pics/YellowCercle";
 
 const Features = () => {
   const [nav1, setNav1] = useState(null);
@@ -37,6 +38,8 @@ const Features = () => {
     <Container id="features" fluid className="featuresContainer">
       <Row className="featuresTitle">
         <h2 className="featureTitleText">Features</h2>
+        <YellowCercle className="yellowCercle" />
+        <YellowCercle className="gryeCercle" />
       </Row>
       <Row className="sliderCont">
         <Col sm={6} className="sliderTexts">
