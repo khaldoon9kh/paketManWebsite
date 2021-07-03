@@ -8,7 +8,11 @@ import InstaIcon from "../../assests/socialMediaIcon/INSTA.svg";
 import YTIcon from "../../assests/socialMediaIcon/YT.svg";
 import LinkedInIcon from "../../assests/socialMediaIcon/LinkedIn.svg";
 import TikTokIcon from "../../assests/socialMediaIcon/TIKTOK.svg";
-import Fries from "../../assests/fries.svg";
+import FB from "../../assests/socialMediaIcon/FB";
+import INSTA from "../../assests/socialMediaIcon/INSTA";
+import LINKEDIN from "../../assests/socialMediaIcon/LINKEDIN";
+import YT from "../../assests/socialMediaIcon/YT";
+import TIKTOK from "../../assests/socialMediaIcon/TIKTOK";
 
 const Header = () => {
   return (
@@ -31,8 +35,9 @@ const Header = () => {
             </p>
           </Col>
           <Col className="downloadLinks">
-            <a href='https://apps.apple.com/us/app/paketman-food-ordering-app/id1553619875'
-            target="_blank"
+            <a
+              href="https://apps.apple.com/us/app/paketman-food-ordering-app/id1553619875"
+              target="_blank"
             >
               <Image src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" />
             </a>
@@ -44,11 +49,16 @@ const Header = () => {
             </a>
           </Col>
           <Col className="socialmediaLinks">
-            <Image src={FBIcon} />
-            <Image src={InstaIcon} />
+            <FB />
+            <INSTA />
+            <YT />
+            <TIKTOK />
+            <LINKEDIN />
+            {/* <Image src={FBIcon} /> */}
+            {/* <Image src={InstaIcon} />
             <Image src={YTIcon} />
             <Image src={TikTokIcon} />
-            <Image src={LinkedInIcon} />
+            <Image src={LinkedInIcon} /> */}
             <p>/paketmanapp</p>
           </Col>
         </Col>
