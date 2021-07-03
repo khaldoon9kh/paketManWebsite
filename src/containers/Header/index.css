@@ -109,6 +109,23 @@
   height: auto;
 }
 
+.socialmediaLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socialmediaLinks img {
+  margin: 0 5px;
+  stroke: #edf0f7;
+  background-color: white;
+}
+
+.socialmediaLinks p {
+  text-align: center;
+  margin-bottom: 0;
+  color: #edf0f7;
+}
+
 @media (max-width: 800px) {
   .headerContainer {
     background-color: #5000b7;

@@ -3,6 +3,11 @@ import { Row, Col, Image, Container } from "react-bootstrap";
 import "./index.css";
 import MobilePhoto from "../../assests/pics/MobilePhoto.png";
 import YellowCercle from "../../assests/pics/yellow-Cercle.svg";
+import FBIcon from "../../assests/socialMediaIcon/FB.svg";
+import InstaIcon from "../../assests/socialMediaIcon/INSTA.svg";
+import YTIcon from "../../assests/socialMediaIcon/YT.svg";
+import LinkedInIcon from "../../assests/socialMediaIcon/LinkedIn.svg";
+import TikTokIcon from "../../assests/socialMediaIcon/TIKTOK.svg";
 import Fries from "../../assests/fries.svg";
 
 const Header = () => {
@@ -28,6 +33,14 @@ const Header = () => {
           <Col className="downloadLinks">
             <a><Image src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"/></a>
             <a href='https://play.google.com/store/apps/details?id=com.paketmanapp&hl=en_US&gl=US' target="_blank"><Image src='https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg'/></a>
+          </Col>
+          <Col className='socialmediaLinks'>
+            <Image src={FBIcon} />
+            <Image src={InstaIcon} />
+            <Image src={YTIcon} />
+            <Image src={TikTokIcon} />
+            <Image src={LinkedInIcon} />
+            <p>/paketmanapp</p>
           </Col>
         </Col>
         {/* <Image className='friesImg' src={Fries}/> */}
