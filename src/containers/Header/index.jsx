@@ -26,8 +26,8 @@ const Header = () => {
             </p>
           </Col>
           <Col className="downloadLinks">
-            <Image src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"/>
-            <Image src='https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg'/>
+            <a><Image src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"/></a>
+            <a href='https://play.google.com/store/apps/details?id=com.paketmanapp&hl=en_US&gl=US' target="_blank"><Image src='https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg'/></a>
           </Col>
         </Col>
         {/* <Image className='friesImg' src={Fries}/> */}
