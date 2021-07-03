@@ -20,21 +20,28 @@ const Header = () => {
           </div>
           <Col>
             <p className="headerBody">
-              Lorem ipsum dolor sit amet, consectetuer adip- iscing elit, sed
-              diam nonummy nibh euismod tinci- dunt ut laoreet dolore magna
-              aliquam erat volut- pat. Ut wisi enim ad minim veniam, quis
-              nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-              aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
-              in hendrerit in vulputate velit esse molestie consequat, vel illum
-              dolore eu feugiat nulla facilisis at vero eros et accumsan et
-              iusto odio dignis
+              PaketMan is a food ordering app where you can find the nearby
+              restaurants and place an order. The app aim to provide a lot of
+              choices for its customers by offering different cuisines that
+              would cover all tastes, and give the users the choice of various
+              payments and delivery options. After placing the order users can
+              rate the service and share their thoughts and so we hope that the
+              food industry would get a push forward and become better and
+              better.
             </p>
           </Col>
           <Col className="downloadLinks">
-            <a><Image src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"/></a>
-            <a href='https://play.google.com/store/apps/details?id=com.paketmanapp&hl=en_US&gl=US' target="_blank"><Image src='https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg'/></a>
+            <a>
+              <Image src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" />
+            </a>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.paketmanapp&hl=en_US&gl=US"
+              target="_blank"
+            >
+              <Image src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" />
+            </a>
           </Col>
-          <Col className='socialmediaLinks'>
+          <Col className="socialmediaLinks">
             <Image src={FBIcon} />
             <Image src={InstaIcon} />
             <Image src={YTIcon} />
