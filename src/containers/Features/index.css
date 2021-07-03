@@ -1,5 +1,5 @@
 .featuresContainer {
-  background-color: #5000b7;
+  background-color: #edf0f7;
   padding: 2rem 10rem;
   position: relative;
   display: flex;
@@ -50,7 +50,7 @@
 .custumeDot {
   width: 1.5rem;
   height: 1.5rem;
-  border: 0.0625rem solid yellow;
+  border: 0.0625rem solid #5000b7;
   border-radius: 50%;
 }
 
