@@ -31,7 +31,9 @@ const Header = () => {
             </p>
           </Col>
           <Col className="downloadLinks">
-            <a>
+            <a href='https://apps.apple.com/us/app/paketman-food-ordering-app/id1553619875'
+            target="_blank"
+            >
               <Image src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" />
             </a>
             <a
