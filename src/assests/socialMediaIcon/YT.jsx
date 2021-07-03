@@ -2,6 +2,7 @@ import React from "react";
 
 export default function YT(props) {
   return (
+    <a href='https://www.youtube.com/channel/UCkFt_NJMeUBvfQwrloAx2jA/' target='_blank'>
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="22"
@@ -18,5 +19,6 @@ export default function YT(props) {
         </g>
       </g>
     </svg>
+    </a>
   );
 }

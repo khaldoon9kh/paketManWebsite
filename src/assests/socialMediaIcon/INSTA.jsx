@@ -2,6 +2,7 @@ import React from "react";
 
 export default function INSTA(props) {
   return (
+    <a href='https://www.instagram.com/paketmanapp/' target='_blank'>
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="19"
@@ -27,5 +28,6 @@ export default function INSTA(props) {
         </g>
       </g>
     </svg>
+    </a>
   );
 }

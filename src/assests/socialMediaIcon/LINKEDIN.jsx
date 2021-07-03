@@ -2,6 +2,7 @@ import React from "react";
 
 export default function LINKEDIN(props) {
   return (
+    <a href='https://www.linkedin.com/company/paketmanapp/' target='_blank'>
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="19"
@@ -21,5 +22,6 @@ export default function LINKEDIN(props) {
         </g>
       </g>
     </svg>
+    </a>
   );
 }
