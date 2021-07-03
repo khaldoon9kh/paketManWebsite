@@ -115,10 +115,11 @@
   justify-content: center;
   align-items: center;
 }
-.socialmediaLinks img {
+.socialmediaLinks svg {
   margin: 0 5px;
   stroke: #edf0f7;
-  background-color: white;
+  stroke-width: 0.25;
+  fill: #edf0f7;
 }
 
 .socialmediaLinks p {
