@@ -2,11 +2,6 @@ import React, { useState } from "react";
 import { Row, Col, Image, Container } from "react-bootstrap";
 import "./index.css";
 import PaketManLogo from "../../assests/pics/PaketManWordmark@1X.png";
-// import FBIcon from "../../assests/socialMediaIcon/FB.svg";
-// import InstaIcon from "../../assests/socialMediaIcon/INSTA.svg";
-// import YTIcon from "../../assests/socialMediaIcon/YT.svg";
-// import LinkedInIcon from "../../assests/socialMediaIcon/LinkedIn.svg";
-// import TikTokIcon from "../../assests/socialMediaIcon/TIKTOK.svg";
 import TMIcon from "../../assests/socialMediaIcon/TD.svg";
 import FB from "../../assests/socialMediaIcon/FB";
 import INSTA from "../../assests/socialMediaIcon/INSTA";
@@ -37,7 +32,6 @@ const Footer = () => {
           >
             <p>Privacy Policy</p>
           </a>
-          <p>Privacy Policy</p>
           <p>Privacy Policy</p>
         </Col>
       </Row>
