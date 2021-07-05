@@ -40,6 +40,8 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+.policyCol a {
   color: black;
 }
 
