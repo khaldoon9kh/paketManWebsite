@@ -46,7 +46,7 @@
   padding: 0.25rem 0.5rem;
 }
 
-/* fries icon */
+/* bkgpics icon */
 .headerTitleCol::before {
   content: " ";
   display: block;
@@ -55,10 +55,51 @@
   top: 0;
   width: 30%;
   height: 25%;
-  background-image: url("../../assests/background_Imges/fries.svg");
+  background-image: url("../../assests/background_Imges/3.svg");
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
+}
+
+.headerBody::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: -16rem;
+  top: -7.5rem;
+  width: 15rem;
+  height: 20rem;
+  background-image: url("../../assests/background_Imges/1.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+}
+
+.downloadLinks::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 63rem;
+  top: -3.5rem;
+  width: 15rem;
+  transform: rotate(45deg);
+  height: 20rem;
+  background-image: url("../../assests/background_Imges/2.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+}
+
+.socialmediaLinks::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: -13rem;
+  top: -7.5rem;
+  width: 15rem;
+  transform: rotate(45deg);
+  height: 20rem;
+  background-image: url("../../assests/background_Imges/4.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
 }
 
 .headerImg {
