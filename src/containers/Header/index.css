@@ -52,7 +52,7 @@
   display: block;
   position: absolute;
   left: 32rem;
-  top: 0;
+  top: 13rem;
   width: 30%;
   height: 25%;
   background-image: url("../../assests/background_Imges/3.svg");
@@ -78,8 +78,8 @@
   content: " ";
   display: block;
   position: absolute;
-  left: 63rem;
-  top: -3.5rem;
+  left: 55rem;
+  top: -25.5rem;
   width: 15rem;
   transform: rotate(45deg);
   height: 20rem;
