@@ -10,7 +10,7 @@ const ContactUs = () => {
       <Row className="contactUsTitleRow">
         <h2 className="contactUsTitle">Contact Us</h2>
       </Row>
-      <Row>
+      <Row className="contactUsRow">
         <Col className="contactUsImgCont">
           <Image className="contactUsImg" src={ContactUsImg} />
         </Col>

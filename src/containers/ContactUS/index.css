@@ -49,4 +49,8 @@
     padding: 1rem;
     align-items: center;
   }
+
+  .contactUsRow {
+    flex-direction: column;
+  }
 }
