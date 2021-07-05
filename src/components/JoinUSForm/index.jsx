@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import emailjs from "emailjs-com";
 import { Container, Button, Form, Row, Col } from "react-bootstrap";
 import "./index.css";
@@ -6,7 +6,6 @@ import "./index.css";
 const JoinUsForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(e.target);
 
     emailjs
       .sendForm(
@@ -33,9 +32,9 @@ const JoinUsForm = () => {
         <Row className="formRowRes">
           <Col>
             <Form.Control
-              name="firstName"
+              name="contact_Name"
               required
-              placeholder="First name"
+              placeholder="Full Name"
               onKeyPress={(e) => {
                 e.key === "Enter" && e.preventDefault();
               }}
@@ -43,13 +42,19 @@ const JoinUsForm = () => {
           </Col>
           <Col>
             <Form.Control
-              name="lastName"
-              required
-              placeholder="Last name"
-              onKeyPress={(e) => {
-                e.key === "Enter" && e.preventDefault();
-              }}
-            />
+              as="select"
+              // className="my-1 mr-sm-2"
+              name="subject"
+              id="inlineFormCustomSelectPref"
+              placeholder="select"
+              custom
+            >
+              <option value="0">Subject:</option>
+              <option value="Resturant">Resturant</option>
+              <option value="Home_Chef">Home Chef</option>
+              <option value="Driver">Driver</option>
+              <option value="ContactUS">Genral Enquiry</option>
+            </Form.Control>
           </Col>
         </Row>
         <Row className="formRowRes">
