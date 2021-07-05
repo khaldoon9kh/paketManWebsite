@@ -18,9 +18,7 @@
 }
 
 .socialCol svg {
-  margin: 0 5px;
-  /* stroke: #edf0f7; */
-  /* background-color: white; */
+  margin: 0 0.5rem;
 }
 
 .socialCol p {
@@ -29,8 +27,8 @@
 }
 
 .logoCol {
-  width: 233px;
-  height: 215px;
+  width: 14.5rem;
+  height: 13.4rem;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
@@ -49,11 +47,6 @@
   width: 12rem;
   height: auto;
 }
-
-/* .contactUsImg {
-  width: 12rem;
-  height: auto;
-} */
 
 @media (max-width: 800px) {
   .footerCont {
