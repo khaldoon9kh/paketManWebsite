@@ -18,6 +18,33 @@
   margin-bottom: 1rem;
 }
 
+.featuresTitle::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 70rem;
+  top: 45px;
+  width: 2.8rem;
+  height: 25%;
+  transform: rotate(20deg);
+  background-image: url("../../assests/background_Imges/2.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+}
+
+.sliderCont::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 2rem;
+  width: 10rem;
+  height: 25%;
+  transform: rotate(20deg);
+  background-image: url("../../assests/background_Imges/1.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+}
+
 .featureTitleText {
   font-family: "Tajawal";
   color: #5000b7;
@@ -85,7 +112,6 @@
     align-items: center;
   }
   .featuresContainer {
-    background-color: #5000b7;
     padding: 1rem 1rem;
     position: relative;
     display: flex;

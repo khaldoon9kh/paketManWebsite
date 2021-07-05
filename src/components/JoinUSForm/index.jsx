@@ -1,105 +1,107 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import emailjs from "emailjs-com";
 import { Container, Button, Form, Row, Col } from "react-bootstrap";
 import "./index.css";
 
 const JoinUsForm = () => {
-  const [userInput, setUserInput] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    phone: "",
-    usermessage: "",
-  });
-
-  const handleFirstNameValue = (e) => {
-    setUserInput({ ...userInput, firstName: e.target.value });
-  };
-
-  const handleLastNameValue = (e) => {
-    setUserInput({ ...userInput, lastName: e.target.value });
-  };
-
-  const handleEmailValue = (e) => {
-    setUserInput({ ...userInput, email: e.target.value });
-  };
-
-  const handlePhoneValue = (e) => {
-    setUserInput({ ...userInput, phone: e.target.value });
-  };
-
-  const handleUsermessageValue = (e) => {
-    setUserInput({ ...userInput, usermessage: e.target.value });
-  };
-
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(userInput);
-    setUserInput({
-      firstName: "",
-      lastName: "",
-      email: "",
-      phone: "",
-      usermessage: "",
-    });
+
+    emailjs
+      .sendForm(
+        "service_if288s9",
+        "template_9pc0hwm",
+        e.target,
+        "user_Ac1zNd3TCjZ3p0wnPrhac"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    e.target.reset();
   };
 
   return (
     <Container className="formCont">
-      <Form>
+      <Form onSubmit={handleSubmit}>
         <Row className="formRowRes">
           <Col>
             <Form.Control
-              placeholder="First name"
-              onChange={(e) => handleFirstNameValue(e)}
-              value={userInput.firstName}
+              name="contact_Name"
+              required
+              placeholder="Full Name"
+              onKeyPress={(e) => {
+                e.key === "Enter" && e.preventDefault();
+              }}
             />
           </Col>
           <Col>
             <Form.Control
-              placeholder="Last name"
-              onChange={(e) => handleLastNameValue(e)}
-              value={userInput.lastName}
-            />
+              as="select"
+              // className="my-1 mr-sm-2"
+              name="subject"
+              id="inlineFormCustomSelectPref"
+              placeholder="select"
+              custom
+            >
+              <option value="0">Subject:</option>
+              <option value="Resturant">Resturant</option>
+              <option value="Home_Chef">Home Chef</option>
+              <option value="Driver">Driver</option>
+              <option value="ContactUS">Genral Enquiry</option>
+            </Form.Control>
           </Col>
         </Row>
         <Row className="formRowRes">
           <Col>
             <Form.Control
+              name="email"
+              required
               type="email"
               placeholder="Email"
-              onChange={(e) => handleEmailValue(e)}
-              value={userInput.email}
+              onKeyPress={(e) => {
+                e.key === "Enter" && e.preventDefault();
+              }}
             />
           </Col>
           <Col>
             <Form.Control
+              name="phone"
+              required
               type="number"
               placeholder="Phone Number"
-              onChange={(e) => handlePhoneValue(e)}
-              value={userInput.phone}
+              onKeyPress={(e) => {
+                e.key === "Enter" && e.preventDefault();
+              }}
             />
           </Col>
         </Row>
         <Row>
           <Col>
             <Form.Control
+              name="user_message"
+              required
               placeholder="Please write us a small introduction about you"
               as="textarea"
               rows={3}
-              onChange={(e) => handleUsermessageValue(e)}
-              value={userInput.usermessage}
+              onKeyPress={(e) => {
+                e.key === "Enter" && e.preventDefault();
+              }}
             />
           </Col>
         </Row>
         <Row>
           <Col className="submitButtonCol">
-            <Button
+            <input
               className="submitButton"
               type="submit"
-              onClick={(e) => handleSubmit(e)}
-            >
-              Submit
-            </Button>
+              value="Submit"
+            ></input>
           </Col>
         </Row>
       </Form>

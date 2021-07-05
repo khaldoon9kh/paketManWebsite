@@ -18,7 +18,7 @@ const JoinUs = () => {
           <JoinUsCard cardLogo={data.cardLogo} cardTitle={data.cardTitle} />
         ))}
       </Row>
-      <Row>
+      <Row className="formRowCont">
         <Col className="formCol">
           <JoinUsForm />
         </Col>
