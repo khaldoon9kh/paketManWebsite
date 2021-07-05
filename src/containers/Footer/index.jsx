@@ -12,7 +12,6 @@ import privacy_file from "../../assests/privacyfile.pdf";
 import terms_file from "../../assests/terms_conditions.pdf";
 
 const Footer = () => {
-
   return (
     <Container fluid className="footerCont" expand="lg">
       <Row>
