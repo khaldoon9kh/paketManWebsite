@@ -8,8 +8,12 @@ import INSTA from "../../assests/socialMediaIcon/INSTA";
 import LINKEDIN from "../../assests/socialMediaIcon/LINKEDIN";
 import YT from "../../assests/socialMediaIcon/YT";
 import TIKTOK from "../../assests/socialMediaIcon/TIKTOK";
+import PrivacyModal from "../../components/PrivacyModal";
+// import moduleName from '../../assests/T&M.html'
 
 const Footer = () => {
+  const [modalShow, setModalShow] = React.useState(false);
+
   return (
     <Container fluid className="footerCont" expand="lg">
       <Row>
@@ -32,7 +36,8 @@ const Footer = () => {
           >
             <p>Privacy Policy</p>
           </a>
-          <p>Privacy Policy</p>
+          <p onClick={() => setModalShow(true)}>Privacy Policy</p>
+          <PrivacyModal show={modalShow} onHide={() => setModalShow(false)} />
         </Col>
       </Row>
     </Container>
