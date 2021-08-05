@@ -17,17 +17,12 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 1rem;
-  padding-top: 0.5rem;
 }
 
 .faqTitleText {
-  font-family: "Tajawal";
   color: #ffec00;
   font-size: 3rem;
-  font-weight: 800;
-}
-
-.faqTextCont {
+  font-weight: 600;
 }
 
 .faqImgCont {
