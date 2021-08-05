@@ -87,3 +87,9 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 2560px) {
+  .navBarStyle {
+    padding: 0 38rem;
+  }
+}
