@@ -178,6 +178,11 @@
     padding: 1rem 0;
   }
 
+  .headerMainRow {
+    width: 100%;
+    margin: 0;
+  }
+
   .headerTitleCol {
     justify-content: center;
   }
@@ -203,12 +208,33 @@
     background-size: cover;
   }
 
+  .headerTextCol::before,
+  .downloadLinks::before {
+    visibility: hidden;
+  }
+
   .downloadLinks,
   .socialmediaLinks {
     margin: 1rem 0;
   }
 
   .downloadLinks {
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (max-width: 2560px) {
+  .headerContainer {
+    padding: 2rem 38rem;
+  }
+
+  .headerTextCol::before {
+    height: 35%;
+  }
+
+  .downloadLinks::before {
+    left: 70rem;
   }
 }
