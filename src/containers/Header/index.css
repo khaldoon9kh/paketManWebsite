@@ -32,23 +32,24 @@
 
 .headerTitleCol {
   display: flex;
-  align-content: center;
+  flex-direction: column;
+  width: 15.5rem;
+  height: 3.5rem;
+  border-radius: 2rem;
+  background-color: white;
+  justify-content: center;
 }
 
 .headerTitle {
-  border-radius: 2rem;
-  background-color: white;
-  align-items: center;
   text-align: center;
   color: #5000b7;
-  font-family: "Tajawal";
   font-weight: bold;
   padding: 0.25rem 0.5rem;
 }
 
-/* bkgpics icon */
-.headerTitleCol::before {
-  content: " ";
+/* pepper pic icon */
+.headerTextCol::before {
+  content: "";
   display: block;
   position: absolute;
   left: 32rem;
@@ -125,7 +126,6 @@
 }
 
 .headerBody {
-  width: 30rem;
   color: white;
   font-family: "Tajawal";
   text-align: justify;
@@ -142,8 +142,11 @@
 
 .downloadLinks {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-start;
+}
+.downloadLinks a {
+  margin: 1rem;
 }
 
 .downloadLinks img {

@@ -2,12 +2,6 @@ import React, { useState } from "react";
 import { Row, Col, Image, Container } from "react-bootstrap";
 import "./index.css";
 import MobilePhoto from "../../assests/pics/MobilePhoto.png";
-import YellowCercle from "../../assests/pics/yellow-Cercle.svg";
-import FBIcon from "../../assests/socialMediaIcon/FB.svg";
-import InstaIcon from "../../assests/socialMediaIcon/INSTA.svg";
-import YTIcon from "../../assests/socialMediaIcon/YT.svg";
-import LinkedInIcon from "../../assests/socialMediaIcon/LinkedIn.svg";
-import TikTokIcon from "../../assests/socialMediaIcon/TIKTOK.svg";
 import FB from "../../assests/socialMediaIcon/FB";
 import INSTA from "../../assests/socialMediaIcon/INSTA";
 import LINKEDIN from "../../assests/socialMediaIcon/LINKEDIN";
@@ -19,9 +13,9 @@ const Header = () => {
     <Container id="home" fluid className="headerContainer" expand="lg">
       <Row className="headerMainRow">
         <Col className="headerTextCol" xs={10} md={6}>
-          <div className="headerTitleCol">
+          <Col className="headerTitleCol">
             <h1 className="headerTitle">PaketMan</h1>
-          </div>
+          </Col>
           <Col>
             <p className="headerBody">
               PaketMan is a food ordering app where you can find the nearby
@@ -29,7 +23,7 @@ const Header = () => {
               choices for its customers by offering different cuisines that
               would cover all tastes, and give the users the choice of various
               payments and delivery options. After placing the order users can
-              rate the service and share their thoughts and so we hope that the
+              rate the service anda share their thoughts and so we hope that the
               food industry would get a push forward and become better and
               better.
             </p>
