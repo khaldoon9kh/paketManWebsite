@@ -2,6 +2,7 @@
   background-color: #5000b8;
   padding: 0 10rem;
   transition: top 0.3s;
+  justify-content: center;
 }
 
 .navBarMainCont {
@@ -38,11 +39,11 @@
   justify-content: center;
   align-items: center;
   margin: 1rem;
+  cursor: pointer;
 }
 
 .navbar-nav p {
   color: #5000b8;
-  font-family: "Tajawal";
   font-weight: bold;
   text-align: center;
   margin: 0;
@@ -62,15 +63,15 @@
   }
   .navBarMainCont {
     margin: 1rem;
-    justify-content: center;
+    justify-content: center !important;
   }
 
   .navBarItemContainer {
-    justify-content: center;
+    justify-content: center !important;
   }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   .navBarStyle {
     padding: 0.5rem;
     display: flex;
@@ -84,6 +85,6 @@
   }
 
   .navBarItemContainer {
-    justify-content: center;
+    justify-content: space-between !important;
   }
 }

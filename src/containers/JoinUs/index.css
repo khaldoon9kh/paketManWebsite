@@ -85,12 +85,36 @@
   background-position: 50% 0;
 }
 
+@media (max-width: 1024px) {
+  .joinUsTitle::before,
+  .formCol::before {
+    left: 30rem;
+    top: 9rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .formRowCont::before {
+    left: 28rem;
+    top: 139rem;
+  }
+
+  .formCol::before {
+    left: 111rem;
+    top: 5rem;
+    width: 21rem;
+    height: 22rem;
+  }
+}
+
 @media (max-width: 800px) {
   .joinUSContainer {
     padding: 1rem;
   }
 
-  .joinUsCardsCont::before {
+  .joinUsCardsCont::before,
+  .joinUsTitle::before,
+  .formCol::before {
     visibility: hidden;
   }
 }
