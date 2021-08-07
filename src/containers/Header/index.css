@@ -225,7 +225,7 @@
   }
 }
 
-@media (max-width: 2560px) {
+/* @media (max-width: 2560px) {
   .headerContainer {
     padding: 2rem 38rem;
   }
@@ -237,4 +237,4 @@
   .downloadLinks::before {
     left: 70rem;
   }
-}
+} */
