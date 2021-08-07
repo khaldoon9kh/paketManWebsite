@@ -54,3 +54,19 @@
     flex-direction: column;
   }
 }
+
+@media (min-width: 1024px) {
+  .contactUsCont {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+  }
+
+  .contactUsTitleRow {
+    margin: 0 5rem;
+  }
+
+  /* .contactUsRow {
+    flex-direction: column;
+  } */
+}
