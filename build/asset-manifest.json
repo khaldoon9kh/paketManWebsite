@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.2600bb3c.chunk.css",
-    "main.js": "/static/js/main.115c116e.chunk.js",
-    "main.js.map": "/static/js/main.115c116e.chunk.js.map",
+    "main.css": "/static/css/main.8e0a2b60.chunk.css",
+    "main.js": "/static/js/main.0205f543.chunk.js",
+    "main.js.map": "/static/js/main.0205f543.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0e84c482.js",
     "runtime-main.js.map": "/static/js/runtime-main.0e84c482.js.map",
     "static/css/2.3021dfe7.chunk.css": "/static/css/2.3021dfe7.chunk.css",
@@ -12,19 +12,14 @@
     "static/js/3.bec300d5.chunk.js.map": "/static/js/3.bec300d5.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.3021dfe7.chunk.css.map": "/static/css/2.3021dfe7.chunk.css.map",
-    "static/css/main.2600bb3c.chunk.css.map": "/static/css/main.2600bb3c.chunk.css.map",
+    "static/css/main.8e0a2b60.chunk.css.map": "/static/css/main.8e0a2b60.chunk.css.map",
     "static/js/2.649374ee.chunk.js.LICENSE.txt": "/static/js/2.649374ee.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/yellow-Cercle.531d4041.svg",
     "static/media/FAQImg.376ef100.svg": "/static/media/FAQImg.376ef100.svg",
-    "static/media/FB.a626c93d.svg": "/static/media/FB.a626c93d.svg",
-    "static/media/INSTA.a953ee00.svg": "/static/media/INSTA.a953ee00.svg",
-    "static/media/LinkedIn.c5193e28.svg": "/static/media/LinkedIn.c5193e28.svg",
     "static/media/MobilePhoto.678bf643.png": "/static/media/MobilePhoto.678bf643.png",
     "static/media/PaketManWordmark@1X.fd2ab0b4.png": "/static/media/PaketManWordmark@1X.fd2ab0b4.png",
     "static/media/Path.11fe0844.svg": "/static/media/Path.11fe0844.svg",
     "static/media/TD.dd157ba4.svg": "/static/media/TD.dd157ba4.svg",
-    "static/media/TIKTOK.217de6dc.svg": "/static/media/TIKTOK.217de6dc.svg",
-    "static/media/YT.6df68432.svg": "/static/media/YT.6df68432.svg",
     "static/media/allForYou.89bfe355.png": "/static/media/allForYou.89bfe355.png",
     "static/media/beBoss.9e3fde00.png": "/static/media/beBoss.9e3fde00.png",
     "static/media/contactUs.43b8c7ca.svg": "/static/media/contactUs.43b8c7ca.svg",
@@ -43,7 +38,7 @@
     "static/js/runtime-main.0e84c482.js",
     "static/css/2.3021dfe7.chunk.css",
     "static/js/2.649374ee.chunk.js",
-    "static/css/main.2600bb3c.chunk.css",
-    "static/js/main.115c116e.chunk.js"
+    "static/css/main.8e0a2b60.chunk.css",
+    "static/js/main.0205f543.chunk.js"
   ]
 }
