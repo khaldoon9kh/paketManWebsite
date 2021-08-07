@@ -2,6 +2,7 @@
   background-color: #5000b8;
   padding: 0 10rem;
   transition: top 0.3s;
+  justify-content: center;
 }
 
 .navBarMainCont {
@@ -52,7 +53,7 @@
   border: 0.25rem solid yellow !important;
 }
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
   .navBarStyle {
     padding: 1rem;
     display: flex;
@@ -62,11 +63,11 @@
   }
   .navBarMainCont {
     margin: 1rem;
-    justify-content: center;
+    justify-content: center !important;
   }
 
   .navBarItemContainer {
-    justify-content: center;
+    justify-content: center !important;
   }
 }
 
@@ -84,6 +85,6 @@
   }
 
   .navBarItemContainer {
-    justify-content: center;
+    justify-content: space-between !important;
   }
 }
