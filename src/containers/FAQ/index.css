@@ -47,7 +47,7 @@
   }
 }
 
-@media (max-width: 2560px) {
+@media (min-width: 2560px) {
   .faqContainer {
     padding: 2rem 38rem;
   }
