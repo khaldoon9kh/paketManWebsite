@@ -52,7 +52,7 @@
   border: 0.25rem solid yellow !important;
 }
 
-@media (max-width: 800px) {
+@media (min-width: 800px) {
   .navBarStyle {
     padding: 1rem;
     display: flex;
@@ -70,7 +70,7 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   .navBarStyle {
     padding: 0.5rem;
     display: flex;
@@ -85,11 +85,5 @@
 
   .navBarItemContainer {
     justify-content: center;
-  }
-}
-
-@media (max-width: 2560px) {
-  .navBarStyle {
-    padding: 0 38rem;
   }
 }
