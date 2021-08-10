@@ -9,6 +9,7 @@
 
 .joinUsTitle {
   margin: 0.625rem;
+  text-align: center;
 }
 
 .joinUsTitle h2 {
@@ -126,5 +127,9 @@
   .formCol::before,
   .formRowCont::before {
     content: none;
+  }
+
+  .joinUsTitle h2 {
+    font-size: 5rem;
   }
 }

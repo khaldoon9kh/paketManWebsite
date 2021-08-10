@@ -9,11 +9,11 @@ const contactInfo = [
   },
   {
     icon: EmailIcon,
-    text: "Paketman@gmail.com",
+    text: "info@paketmanapp.com",
   },
   {
     icon: PhoneIcon,
-    text: "0531 634 56 60",
+    text: "+90 531 634 56 60",
   },
 ];
 

@@ -1,6 +1,15 @@
 import React from "react";
 
 export default function FB(props) {
+  // const fbStyle = {
+    
+  // }
+
+  const hoverHandle = (e)=>{
+    e.target.style.stroke = 'blue'
+    e.target.style.fill = "red"
+  }
+  
   return (
     <a href="https://www.facebook.com/Paketmanapp/" target="_blank">
       <svg
@@ -9,6 +18,7 @@ export default function FB(props) {
         height="19"
         viewBox="0 0 18 19"
         {...props}
+        onMouseOver={hoverHandle}
       >
         <g>
           <g>

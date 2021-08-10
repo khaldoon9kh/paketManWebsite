@@ -10,7 +10,7 @@ const JoinUs = () => {
     <Container id="joinUs" fluid className="joinUSContainer" expand="lg">
       <Row>
         <Col className="joinUsTitle">
-          <h2 className="text-center">Join Us</h2>
+          <h2 >Join Us</h2>
         </Col>
       </Row>
       <Row className="joinUsCardsCont">
