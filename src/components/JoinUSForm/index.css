@@ -3,7 +3,8 @@
   margin: 2rem;
   border-radius: 2rem;
   background-color: #ffec00;
-  width: 75%;
+  width: 100%;
+  height: auto;
 }
 
 .formCont .row {

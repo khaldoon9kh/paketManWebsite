@@ -31,19 +31,13 @@
 .contactUsForm {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .contactUsImg {
   width: 75%;
   height: auto;
 }
-
-/* .formCont form {
-
-  width: 100%;
-  height: auto;
-  background-color: violet;
-} */
 
 @media (max-width: 800px) {
   .contactUsCont {
@@ -53,7 +47,14 @@
   }
 
   .contactUsRow {
+    display: flex;
     flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+  .contactUsForm .formCont {
+    margin: 1rem 0.5rem;
   }
 }
 
@@ -72,13 +73,6 @@
   .contactUsForm {
     display: flex;
     justify-content: center;
-    /* width: 100%;
-    height: auto; */
+    align-items: center;
   }
-
-  /* .formCont {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  } */
 }

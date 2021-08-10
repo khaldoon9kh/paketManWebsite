@@ -43,7 +43,6 @@ const JoinUsForm = () => {
           <Col>
             <Form.Control
               as="select"
-              // className="my-1 mr-sm-2"
               name="subject"
               id="inlineFormCustomSelectPref"
               placeholder="select"
