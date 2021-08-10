@@ -38,10 +38,12 @@
   height: auto;
 }
 
-.contactUsForm .formCont {
+/* .formCont form {
+
   width: 100%;
   height: auto;
-}
+  background-color: violet;
+} */
 
 @media (max-width: 800px) {
   .contactUsCont {
@@ -58,15 +60,25 @@
 @media (min-width: 1024px) {
   .contactUsCont {
     display: flex;
-    padding: 1rem;
     justify-content: center;
   }
+}
 
-  .contactUsTitleRow {
-    margin: 0 5rem;
+@media (min-width: 2560px) {
+  .contactUsCont {
+    padding: 2rem 38rem;
   }
 
-  /* .contactUsRow {
+  .contactUsForm {
+    display: flex;
+    justify-content: center;
+    /* width: 100%;
+    height: auto; */
+  }
+
+  /* .formCont {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
   } */
 }

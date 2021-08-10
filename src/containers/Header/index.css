@@ -47,82 +47,12 @@
   padding: 0.25rem 0.5rem;
 }
 
-/* pepper pic icon */
-.headerTextCol::before {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 32rem;
-  top: 13rem;
-  width: 30%;
-  height: 25%;
-  background-image: url("../../assests/background_Imges/3.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: cover;
-}
-
-.headerBody::before {
-  content: " ";
-  display: block;
-  position: absolute;
-  left: -16rem;
-  top: -7.5rem;
-  width: 15rem;
-  height: 20rem;
-  background-image: url("../../assests/background_Imges/1.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-}
-
-.downloadLinks::before {
-  content: " ";
-  display: block;
-  position: absolute;
-  left: 55rem;
-  top: -25.5rem;
-  width: 15rem;
-  transform: rotate(45deg);
-  height: 20rem;
-  background-image: url("../../assests/background_Imges/2.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-}
-
-.socialmediaLinks::before {
-  content: " ";
-  display: block;
-  position: absolute;
-  left: -13rem;
-  top: -7.5rem;
-  width: 15rem;
-  transform: rotate(45deg);
-  height: 20rem;
-  background-image: url("../../assests/background_Imges/4.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-}
-
 .headerImg {
   display: flex;
   justify-content: center;
   position: relative;
   width: 100%;
   height: 100%;
-}
-
-.headerImg::before {
-  content: " ";
-  display: block;
-  position: absolute;
-  left: 1.5rem;
-  top: 4rem;
-  width: 115%;
-  height: 115%;
-  background-image: url("../../assests/pics/yellow-Cercle.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: contain;
 }
 
 .headerBody {
@@ -172,6 +102,76 @@
   color: #edf0f7;
 }
 
+/* pepper pic icon */
+.headerTextCol::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 41rem;
+  top: 0rem;
+  width: 30%;
+  height: 25%;
+  background-image: url("../../assests/background_Imges/3.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.headerBody::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: -16rem;
+  top: -7.5rem;
+  width: 15rem;
+  height: 20rem;
+  background-image: url("../../assests/background_Imges/1.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+}
+
+.headerImg::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 1.5rem;
+  top: 4rem;
+  width: 115%;
+  height: 115%;
+  background-image: url("../../assests/pics/yellow-Cercle.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: contain;
+}
+
+.downloadLinks::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 34rem;
+  top: -25.5rem;
+  width: 15rem;
+  transform: rotate(45deg);
+  height: 20rem;
+  background-image: url("../../assests/background_Imges/2.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+}
+
+.socialmediaLinks::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: -13rem;
+  top: -7.5rem;
+  width: 15rem;
+  transform: rotate(45deg);
+  height: 20rem;
+  background-image: url("../../assests/background_Imges/4.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+}
+
 @media (max-width: 800px) {
   .headerContainer {
     background-color: #5000b7;
@@ -187,30 +187,27 @@
     justify-content: center;
   }
 
-  .headerImg::before {
-    visibility: hidden;
-  }
   .headerBody {
     width: auto;
   }
-
-  .headerTitleCol::before {
-    content: " ";
-    display: block;
-    position: absolute;
-    left: 13rem;
-    top: 0;
-    width: 30%;
-    height: 25%;
-    background-image: url("../../assests/background_Imges/fries.svg");
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    background-size: cover;
+  .headerTextCol::before {
+    top: -57px;
+    left: -28px;
   }
 
-  .headerTextCol::before,
+  .headerBody::before {
+    top: 37rem;
+    left: 2rem;
+  }
+
   .downloadLinks::before {
-    visibility: hidden;
+    top: 11rem;
+    left: -8rem;
+  }
+
+  .headerImg::before {
+    top: 10rem;
+    left: 0;
   }
 
   .downloadLinks,
@@ -225,7 +222,21 @@
   }
 }
 
-/* @media (max-width: 2560px) {
+@media (min-width: 1440px) {
+  .downloadLinks::before {
+    top: -25.5rem;
+    width: 15rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .downloadLinks::before {
+    top: -13rem;
+    left: 27rem;
+  }
+}
+
+@media (min-width: 2560px) {
   .headerContainer {
     padding: 2rem 38rem;
   }
@@ -237,4 +248,4 @@
   .downloadLinks::before {
     left: 70rem;
   }
-} */
+}

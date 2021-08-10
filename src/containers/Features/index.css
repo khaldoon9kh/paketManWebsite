@@ -18,20 +18,6 @@
   margin-bottom: 1rem;
 }
 
-.featuresTitle::before {
-  content: " ";
-  display: block;
-  position: absolute;
-  left: 70rem;
-  top: 45px;
-  width: 2.8rem;
-  height: 25%;
-  transform: rotate(20deg);
-  background-image: url("../../assests/background_Imges/2.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-}
-
 .sliderCont::before {
   content: " ";
   display: block;
@@ -123,8 +109,21 @@
     margin-top: 3rem;
   }
 
-  .gryeCercle,
-  .yellowCercle {
+  .yellowCercle,
+  .gryeCercle {
+    top: 0;
+    left: 0;
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 2560px) {
+  .featuresContainer {
+    padding: 2rem 38rem;
+  }
+
+  .yellowCercle,
+  .gryeCercle {
     visibility: hidden;
   }
 }

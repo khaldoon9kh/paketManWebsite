@@ -87,23 +87,32 @@
 
 @media (max-width: 1024px) {
   .joinUsTitle::before,
-  .formCol::before {
-    left: 30rem;
-    top: 9rem;
+  .formCol::before,
+  .joinUsCardsCont::before {
+    content: none;
   }
 }
 
 @media (min-width: 2560px) {
+  .joinUSContainer {
+    padding: 2rem 38rem;
+  }
+
   .formRowCont::before {
     left: 28rem;
     top: 139rem;
   }
 
   .formCol::before {
-    left: 111rem;
+    left: 73rem;
     top: 5rem;
     width: 21rem;
     height: 22rem;
+  }
+
+  .joinUsCardsCont::before {
+    left: 22rem;
+    top: 91rem;
   }
 }
 
@@ -114,7 +123,8 @@
 
   .joinUsCardsCont::before,
   .joinUsTitle::before,
-  .formCol::before {
-    visibility: hidden;
+  .formCol::before,
+  .formRowCont::before {
+    content: none;
   }
 }
