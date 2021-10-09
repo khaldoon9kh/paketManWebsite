@@ -72,7 +72,6 @@ const JoinUsForm = () => {
             <Form.Control
               name="phone"
               required
-              type="number"
               placeholder="Phone Number"
               onKeyPress={(e) => {
                 e.key === "Enter" && e.preventDefault();
