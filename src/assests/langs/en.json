@@ -1,0 +1,74 @@
+{
+    "navbar":{
+        "main": "Main Page",
+        "features": "Features",
+        "join": "Join Us",
+        "faq": "FAQ",
+        "contact": "Contact Us"
+    },
+    "header": "PaketMan is a food ordering app where you can find the nearby restaurants and place an order. The app aim to provide a lot of choices for its customers by offering different cuisines that would cover all tastes, and give the users the choice of various payments and delivery options. After placing the order users can rate the service anda share their thoughts and so we hope that the food industry would get a push forward and become better and better.",
+    "feature": {
+        "one": {
+            "featHead":"All for you",
+            "featText": " With PaketMan you will no longer need to ask about the phone number and wait every restaurant response, it's all available in one place, organised, updated, filtered and nicely designed."
+        },
+        "two": {
+            "featHead": "Be The Boss",
+            "featText":"PaketMan offers you a lot of options and lets you choose what you like. The options start from the categories where you can order from the different cuisines. After that there will be different restaurants offering the same meal, and lastly you will get to choose how you want to complete the payment process."
+        },
+        "three": {
+            "featHead": "Special Offers",
+            "featText":"Be part of our community and discover what is new from the offers section, every day we have a big offer beside the other opportunities in the offers page, and the offers in the restaurants page. Loyalty system is also designed to provide you with many gifts and meals as you use the app."
+        },
+        "four": {
+            "featHead": "Track and Rate",
+            "featText":"Track your order status through the app each step at a time, And rate your order to ensure fast and reliable services."
+        }
+    },
+    "join": {
+        "card":{
+            "resturant": "Resturant",
+            "home": "Home Chef",
+            "driver" : "Driver"
+        },
+        "form": {
+            "name": "Full Name",
+            "select": "subject:",
+            "contact": "Genral Enquiry",
+            "email": "Email",
+            "number": "Phone Number",
+            "message": "Please write us a small introduction about you",
+            "submit": "submit"
+        }
+    },
+    "faq": {
+        "one": {
+            "faqQuestion":"How can I register on PaketMan?" ,
+            "faqAnswer": "To register in PaketMan you must have a valid phone number where an activation code will be sent to you, then you will fill in the other required information. Registration is very simple and the registration page can be accessed through the side menu."
+        },
+        "two": {
+            "faqQuestion": "Is there an additional charge for delivery based on the distance of my address?",
+            "faqAnswer": "If it is available at the restaurant, the delivery charges will appear in each order based on the policy of each restaurant separately, and they will be linked to the delivery address entered by the customer. These charges are considered fixed for each region or distance"
+        },
+        "three": {
+            "faqQuestion":"Can I order my favorite meals with special toppings?" ,
+            "faqAnswer": "Yes, by adding a note at the last step in executing the request. Or look at the options offered by the restaurant and determine what suits you"
+        },
+        "four": {
+            "faqQuestion": "Can I order via a browser without the need for a mobile phone?",
+            "faqAnswer": "PaketMan platform will be launched soon (online ordering website)"
+        },
+        "five": {
+            "faqQuestion": "What types of restaurants are available on your application?",
+            "faqAnswer": "PaketMan provides a wide variety of the most famous restaurants available that offer various dishes, desserts and pastries. You can also submit your suggestions to cover your favorite restaurant from here and see the available restaurants."
+        },
+        "six": {
+            "faqQuestion": "What areas do you deliver to?",
+            "faqAnswer":"PaketMan provides its customers with an easy and safe way to order food from the best restaurants that provide delivery service, and at the present time PaketMan has launched its services in Istanbul as a first stage, with the expansion to be carried out throughout Turkey, successively, to additional regions, in order to ensure that we provide our services well"
+        }
+    },
+    "footer": {
+        "privacy":"Privacy Policy",
+        "terms":"Terms & Conditions"
+    }
+}

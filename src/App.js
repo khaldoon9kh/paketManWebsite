@@ -10,13 +10,28 @@ import FAQ from "./containers/FAQ";
 import ContactUs from "./containers/ContactUS";
 import Location from "./containers/Location";
 import Footer from "./containers/Footer";
+import { useEffect, useState } from "react";
+import i18next from "i18next";
 
 function App() {
+  const [lang, setLang] = useState(localStorage.getItem("language"));
+  const handelLang = (lang) => {
+    setLang(lang);
+    i18next.changeLanguage(lang);
+  };
+  useEffect(() => {
+    if (localStorage.getItem("language") === null) {
+      localStorage.setItem("language", "en");
+    } else {
+      localStorage.setItem("language", lang);
+    }
+  }, [lang]);
+
   return (
     <>
-      <NavBar />
+      <NavBar handelLang={handelLang} />
       <Header />
-      <Features />
+      <Features lang={lang} />
       <JoinUs />
       <FAQ />
       <ContactUs />

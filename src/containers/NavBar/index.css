@@ -61,6 +61,7 @@
     flex-direction: column-reverse;
     align-content: center;
   }
+
   .navBarMainCont {
     margin: 1rem;
     justify-content: center !important;
@@ -79,6 +80,7 @@
     flex-direction: column-reverse;
     align-content: center;
   }
+
   .navBarMainCont {
     margin: 0.5rem;
     justify-content: center !important;
@@ -87,4 +89,10 @@
   .navBarItemContainer {
     justify-content: space-between !important;
   }
+}
+
+.selectLang {
+  position: absolute;
+  right: 4%;
+  top: 10%;
 }

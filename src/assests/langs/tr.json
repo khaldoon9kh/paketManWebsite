@@ -1,0 +1,74 @@
+{
+    "navbar":{
+        "main": "Ana Sayfa",
+        "features": "Özellikler",
+        "join": "Bize katıl",
+        "faq": "FAQ",
+        "contact": "İletişim"
+    },
+    "header":"PaketMan, yakındaki restoranları bulabileceğiniz ve sipariş verebileceğiniz bir yemek siparişi uygulamasıdır. Her zevke hitap edecek farklı mutfaklar sunarak müşterilerine çok sayıda seçenek sunmayı hedefleyen uygulama, kullanıcılara farklı ödeme ve teslimat seçenekleri sunuyor. Kullanıcılar, siparişi verdikten sonra hizmeti değerlendirebilir ve düşüncelerini paylaşabilir; bu nedenle, gıda endüstrisinin ilerlemesini ve daha iyi ve daha iyi olmasını umuyoruz.",
+    "feature": {
+        "one": {
+            "featHead":"Hepsi senin için",
+            "featText": " PaketMan ile artık telefon numarası sormanıza ve her restoran yanıtını beklemenize gerek kalmayacak, hepsi tek bir yerde, organize edilmiş, güncellenmiş, filtrelenmiş ve güzel tasarlanmış."
+        },
+        "two": {
+            "featHead": "patron ol",
+            "featText":"PaketMan size birçok seçenek sunar ve istediğinizi seçmenize izin verir. Seçenekler, farklı mutfaklardan sipariş verebileceğiniz kategorilerden başlamaktadır. Bundan sonra aynı yemeği sunan farklı restoranlar olacak ve son olarak ödeme sürecini nasıl tamamlamak istediğinizi seçeceksiniz."
+        },
+        "three": {
+            "featHead": "Özel teklifler",
+            "featText":"Topluluğumuzun bir parçası olun ve teklifler bölümündeki yenilikleri keşfedin, teklifler sayfasındaki diğer fırsatların yanı sıra her gün büyük bir teklifimiz var ve restoranlar sayfasındaki teklifler. Sadakat sistemi ayrıca, uygulamayı kullandığınız süre boyunca size birçok hediye ve yemek sağlamak için tasarlanmıştır."
+        },
+        "four": {
+            "featHead": "Takip Et ve Oy Ver",
+            "featText":"Her adımda uygulama aracılığıyla sipariş durumunuzu takip edin ve hızlı ve güvenilir hizmetler sağlamak için siparişinizi derecelendirin."
+        }
+    },
+    "join": {
+        "card":{
+            "resturant": "Restoran",
+            "home": "ev şefi",
+            "driver" : "sürücü"
+        },
+        "form": {
+            "name": "Ad Soyad",
+            "select": "ders:",
+            "contact": "Genel sorgulama",
+            "email": "E-posta",
+            "number": "Telefon numarası",
+            "message": "Lütfen bize kendinizle ilgili küçük bir tanıtım yazın",
+            "submit": "Sunmak"
+        }
+    },
+    "faq": {
+        "one": {
+            "faqQuestion":"PaketMan'e nasıl kayıt olabilirim?" ,
+            "faqAnswer": "PaketMan'e kaydolmak için, size bir aktivasyon kodunun gönderileceği geçerli bir telefon numaranız olmalıdır, ardından diğer gerekli bilgileri dolduracaksınız. Kayıt işlemi çok basittir ve kayıt sayfasına yan menüden ulaşılabilir."
+        },
+        "two": {
+            "faqQuestion": "Adresimin uzaklığına bağlı olarak teslimat için ek bir ücret var mı?",
+            "faqAnswer": "Restoranda mevcutsa, teslimat ücretleri her restoranın politikasına göre her siparişte ayrı ayrı görünecek ve müşterinin girdiği teslimat adresine bağlanacaktır. Bu ücretler, her bölge veya mesafe için sabit olarak kabul edilir."
+        },
+        "three": {
+            "faqQuestion":"En sevdiğim yemekleri özel malzemelerle sipariş edebilir miyim?" ,
+            "faqAnswer": "Evet, isteği yürütmede son adımda bir not ekleyerek. Veya restoranın sunduğu seçeneklere bakın ve size uygun olanı belirleyin."
+        },
+        "four": {
+            "faqQuestion": "Cep telefonuna ihtiyaç duymadan tarayıcı üzerinden sipariş verebilir miyim?",
+            "faqAnswer": "PaketMan platformu yakında piyasaya sürülecek (çevrimiçi sipariş web sitesi)"
+        },
+        "five": {
+            "faqQuestion": "Uygulamanızda ne tür restoranlar mevcut?",
+            "faqAnswer": "PaketMan, çeşitli yemekler, tatlılar ve hamur işleri sunan çok çeşitli en ünlü restoranları sunar. Ayrıca favori restoranınızı kapsamak için önerilerinizi buradan iletebilir ve mevcut restoranları görebilirsiniz."
+        },
+        "six": {
+            "faqQuestion": "Hangi bölgelere teslimat yapıyorsunuz?",
+            "faqAnswer":"PaketMan, müşterilerine paket servis hizmeti veren en iyi restoranlardan yemek siparişi vermenin kolay ve güvenli bir yolunu sunarken, şu anda Türkiye genelinde gerçekleştireceği genişleme ile ilk etap olarak İstanbul'da hizmet vermeye başlamıştır. , hizmetlerimizi iyi sunabilmemiz için ek bölgelere"
+        }
+    },
+    "footer": {
+        "privacy":"Gizlilik Politikası",
+        "terms":"şartlar & koşullar"
+    }
+}
