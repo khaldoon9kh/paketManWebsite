@@ -96,3 +96,8 @@
   right: 4%;
   top: 10%;
 }
+
+.selectLang select {
+  background-color: yellow;
+  border-radius: 10%;
+}

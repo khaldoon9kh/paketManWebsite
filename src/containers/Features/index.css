@@ -10,7 +10,7 @@
 
 .featuresTitle {
   width: 15.5rem;
-  height: 3.5rem;
+  height: 4.5rem;
   background-color: #ffec00;
   border-radius: 3.5rem;
   display: flex;
@@ -96,6 +96,7 @@
     align-content: center;
     align-items: center;
   }
+
   .featuresContainer {
     padding: 1rem 1rem;
     position: relative;
