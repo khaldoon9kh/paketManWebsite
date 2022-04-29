@@ -33,7 +33,7 @@
   text-align: center;
   background-color: yellow;
   border-radius: 10rem;
-  width: 7.5rem;
+  width: 8.5rem;
   height: 1.875rem;
   display: flex;
   justify-content: center;
@@ -46,6 +46,7 @@
   color: #5000b8;
   font-weight: bold;
   text-align: center;
+  font-family: "Tajawal";
   margin: 0;
 }
 
@@ -98,6 +99,28 @@
 }
 
 .selectLang select {
+  /*
   background-color: yellow;
   border-radius: 10%;
+  */
+  background-color: yellow;
+  border-radius: 50%;
+  width: 3rem;
+  text-align: center;
+  height: 3rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  color: #5000b7;
+  font-weight: 600;
+  font-family: "Tajawal";
+  font-size: 1rem;
+  cursor: pointer;
+
+}
+.selectLang option{
+
+  font-weight: 600;
+  font-family: "Tajawal";
+  font-size: 1rem;
+
 }
