@@ -4,6 +4,7 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import transitionEn from "./en.json";
 import transitionAr from "./ar.json";
 import transitionTr from "./tr.json";
+import transitionRu from "./ru.json";
 
 const resources = {
   en: {
@@ -15,6 +16,9 @@ const resources = {
   tr: {
     translation: transitionTr,
   },
+    ru: {
+        translation: transitionRu,
+    },
 };
 
 i18next

@@ -22,7 +22,7 @@
         },
         "four": {
             "featHead": "Следите за новостями и оценивайте",
-            "featText":"Her adımda uygulama aracılığıyla sipariş durumunuzu takip edin  hızlı ve güvenli  hizmetler sağlamak için siparişinizi değerlendirin ."
+            "featText":"Отслеживайте статус своего заказа через приложение на каждом этапе, оценивайте свой заказ, чтобы предоставлять быстрые и безопасные услуги ."
         }
     },
     "join": {
@@ -34,7 +34,7 @@
         "form": {
             "name": "Имя Фамилия",
             "select": "тема :",
-            "contact": "Genel sorgulama",
+            "contact": "Общий опрос",
             "email": "электронная почта",
             "number": "номер телефона",
             "message": "Пожалуйста, расскажите нам немного о себе",
@@ -47,8 +47,8 @@
             "faqAnswer": "Чтобы стать участником PaketMan, вы должны иметь рабочий номер телефона, на который вам будет отправлен код подтверждения, а затем заполнить другую необходимую информацию. Процесс регистрации очень прост, и на страницу регистрации можно попасть из бокового меню.\n\n"
         },
         "two": {
-            "faqQuestion": "Adresimin uzaklığına bağlı olarak teslimat için ek bir ücret var mı?",
-            "faqAnswer": "Restoranda mevcutsa, teslimat ücretleri her restoranın politikasına göre her siparişte ayrı ayrı görünecek ve müşterinin girdiği teslimat adresine bağlanacaktır. Bu ücretler, her bölge veya mesafe için sabit olarak kabul edilir."
+            "faqQuestion": "Взимается ли дополнительная плата за доставку в зависимости от удаленности моего адреса?",
+            "faqAnswer": "Если доставка доступна в ресторане, стоимость доставки будет указана в каждом заказе отдельно, в соответствии с политикой каждого ресторана, и будет привязана к адресу доставки, введенному покупателем. Эти сборы считаются фиксированными для каждого региона или расстояния."
         },
         "three": {
             "faqQuestion":"Могу ли я заказать любимые блюда из особых ингредиентов?" ,
@@ -68,7 +68,7 @@
         }
     },
     "footer": {
-        "privacy":"Gizlilik Politikası",
-        "terms":"şartlar & koşullar"
+        "privacy":"Политика конфиденциальности",
+        "terms":"Условия"
     }
 }

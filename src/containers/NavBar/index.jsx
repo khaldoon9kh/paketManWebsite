@@ -57,7 +57,8 @@ const NavBar = ({ handelLang }) => {
               EN
             </option>
             <option value="tr">TR</option>
-            <option value="ar">AR</option>
+            <option value="ar">ع</option>
+            <option value="ru">Ру</option>
           </select>
         </div>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
