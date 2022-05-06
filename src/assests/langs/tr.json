@@ -6,45 +6,45 @@
         "faq": "SSS",
         "contact": "İletişim"
     },
-    "header":"PaketMan, yakındaki restoranları bulabileceğiniz ve sipariş verebileceğiniz bir yemek siparişi uygulamasıdır. Her zevke hitap edecek farklı mutfaklar sunarak müşterilerine çok sayıda seçenek sunmayı hedefleyen uygulama, kullanıcılara farklı ödeme ve teslimat seçenekleri sunuyor. Kullanıcılar, siparişi verdikten sonra hizmeti değerlendirebilir ve düşüncelerini paylaşabilir; bu nedenle, gıda endüstrisinin ilerlemesini ve daha iyi ve daha iyi olmasını umuyoruz.",
+    "header":"PaketMan, yakındaki restoranları bulabileceğiniz ve sipariş verebileceğiniz bir uygulamadır. Her zevke hitap edecek farklı mutfaklar sunarak müşterilerine çok sayıda seçenek sunmayı hedefleyen uygulama, kullanıcılara farklı ödeme ve teslimat seçenekleri sunuyor. Kullanıcılar, siparişi verdikten sonra hizmeti değerlendirebilir ve düşüncelerini paylaşabilir Platformumuz  dört farklı dilde hizmet vermektedir Türkçe, İngilizce, Arapça ve Rusça",
     "feature": {
         "one": {
             "featHead":"Hepsi senin için",
             "featText": " PaketMan ile artık telefon numarası sormanıza ve her restoran yanıtını beklemenize gerek kalmayacak, hepsi tek bir yerde, organize edilmiş, güncellenmiş, filtrelenmiş ve güzel tasarlanmış."
         },
         "two": {
-            "featHead": "patron ol",
+            "featHead": "hızlıca sipariş ver",
             "featText":"PaketMan size birçok seçenek sunar ve istediğinizi seçmenize izin verir. Seçenekler, farklı mutfaklardan sipariş verebileceğiniz kategorilerden başlamaktadır. Bundan sonra aynı yemeği sunan farklı restoranlar olacak ve son olarak ödeme sürecini nasıl tamamlamak istediğinizi seçeceksiniz."
         },
         "three": {
-            "featHead": "Özel teklifler",
-            "featText":"Topluluğumuzun bir parçası olun ve teklifler bölümündeki yenilikleri keşfedin, teklifler sayfasındaki diğer fırsatların yanı sıra her gün büyük bir teklifimiz var ve restoranlar sayfasındaki teklifler. Sadakat sistemi ayrıca, uygulamayı kullandığınız süre boyunca size birçok hediye ve yemek sağlamak için tasarlanmıştır."
+            "featHead": "Kampanyalar",
+            "featText":"Topluluğumuzun bir parçası olun ve kampanyalar bölümündeki yenilikleri keşfedin, kampanyalar  sayfasındaki diğer fırsatların yanı sıra her gün büyük bir teklifimiz var ve restoranlar sayfasındaki kampanyalar . Sadakat sistemi ayrıca, uygulamayı kullandığınız süre boyunca size birçok hediye ve yemek sağlamak için tasarlanmıştır."
         },
         "four": {
-            "featHead": "Takip Et ve Oy Ver",
-            "featText":"Her adımda uygulama aracılığıyla sipariş durumunuzu takip edin ve hızlı ve güvenilir hizmetler sağlamak için siparişinizi derecelendirin."
+            "featHead": "sıcak takip et ve değerlendir",
+            "featText":"Her adımda uygulama aracılığıyla sipariş durumunuzu takip edin  hızlı ve güvenli  hizmetler sağlamak için siparişinizi değerlendirin ."
         }
     },
     "join": {
         "card":{
             "resturant": "Restoran",
-            "home": "ev şefi",
+            "home": "mutfak",
             "driver" : "sürücü"
         },
         "form": {
             "name": "Ad Soyad",
-            "select": "ders:",
+            "select": "konu :",
             "contact": "Genel sorgulama",
             "email": "E-posta",
             "number": "Telefon numarası",
             "message": "Lütfen bize kendinizle ilgili küçük bir tanıtım yazın",
-            "submit": "Sunmak"
+            "submit": "Gönder"
         }
     },
     "faq": {
         "one": {
-            "faqQuestion":"PaketMan'e nasıl kayıt olabilirim?" ,
-            "faqAnswer": "PaketMan'e kaydolmak için, size bir aktivasyon kodunun gönderileceği geçerli bir telefon numaranız olmalıdır, ardından diğer gerekli bilgileri dolduracaksınız. Kayıt işlemi çok basittir ve kayıt sayfasına yan menüden ulaşılabilir."
+            "faqQuestion":"PaketMan'e nasıl üye  olabilirim ?" ,
+            "faqAnswer": "PaketMan'e üye olmak  için, size bir doğrulama kodunun gönderileceği geçerli bir telefon numaranız olmalıdır, ardından diğer gerekli bilgileri dolduracaksınız. Kayıt işlemi çok basittir ve kayıt sayfasına yan menüden ulaşılabilir."
         },
         "two": {
             "faqQuestion": "Adresimin uzaklığına bağlı olarak teslimat için ek bir ücret var mı?",
@@ -60,11 +60,11 @@
         },
         "five": {
             "faqQuestion": "Uygulamanızda ne tür restoranlar mevcut?",
-            "faqAnswer": "PaketMan, çeşitli yemekler, tatlılar ve hamur işleri sunan çok çeşitli en ünlü restoranları sunar. Ayrıca favori restoranınızı kapsamak için önerilerinizi buradan iletebilir ve mevcut restoranları görebilirsiniz."
+            "faqAnswer": "PaketMan, çeşitli yemekler, tatlılar ve  un ürünleri  sunan çok çeşitli en ünlü restoranları sunar. Ayrıca en sevdin restoranınızı bize katılmağı için önerilerinizi buradan iletebilir ve mevcut restoranları görebilirsiniz."
         },
         "six": {
             "faqQuestion": "Hangi bölgelere teslimat yapıyorsunuz?",
-            "faqAnswer":"PaketMan, müşterilerine paket servis hizmeti veren en iyi restoranlardan yemek siparişi vermenin kolay ve güvenli bir yolunu sunarken, şu anda Türkiye genelinde gerçekleştireceği genişleme ile ilk etap olarak İstanbul'da hizmet vermeye başlamıştır. , hizmetlerimizi iyi sunabilmemiz için ek bölgelere"
+            "faqAnswer":"PaketMan, müşterilerine paket servis hizmeti veren en iyi restoranlardan yemek siparişi vermenin kolay ve güvenli bir yolunu sunarken, şu anda Türkiye genelinde gerçekleştireceği genişleme ile ilk adım olarak mersin ve İstanbul'da hizmet vermeye başlamıştır."
         }
     },
     "footer": {
