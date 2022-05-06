@@ -70,5 +70,11 @@
     "footer": {
         "privacy":"Privacy Policy",
         "terms":"Terms & Conditions"
-    }
+    },
+    "navbar-nav-p" : "",
+    "featureTitleText_ru" : "",
+    "submitButtonCol_ru" : "",
+    "faqTitleText_ru" : "",
+    "contactUsTitle_ru" : ""
+
 }

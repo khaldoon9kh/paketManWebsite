@@ -70,5 +70,10 @@
     "footer": {
         "privacy":"Политика конфиденциальности",
         "terms":"Условия"
-    }
+    },
+    "navbar-nav-p" : "navbar-nav-p",
+    "featureTitleText_ru" : "featureTitleText_ru",
+    "submitButtonCol_ru" : "submitButtonCol_ru",
+    "faqTitleText_ru" : "faqTitleText_ru",
+    "contactUsTitle_ru" : "contactUsTitle_ru"
 }

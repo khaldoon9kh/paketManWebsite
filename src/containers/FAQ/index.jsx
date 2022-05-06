@@ -18,7 +18,7 @@ const FAQ = () => {
   return (
     <Container id="faq" fluid className="faqContainer" expand="lg">
       <Row className="faqTitle">
-        <h2 className="faqTitleText">{i18next.t("navbar.faq")}</h2>
+        <h2 className={"faqTitleText " + i18next.t("faqTitleText_ru")}>{i18next.t("navbar.faq")}</h2>
       </Row>
       <Row className="faqTextCont">
         <Col>

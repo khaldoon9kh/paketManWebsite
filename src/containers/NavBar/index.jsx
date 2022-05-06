@@ -29,7 +29,7 @@ const NavBar = ({ handelLang }) => {
     return (
       <div>
         <Link to={navId} spy={true} smooth={true}>
-          <p>{navTitle}</p>
+          <p className={i18next.t("navbar-nav-p")}>{navTitle}</p>
         </Link>
       </div>
     );
@@ -67,7 +67,7 @@ const NavBar = ({ handelLang }) => {
             <Container className="navBarItemContainer">
               <div>
                 <Link activeClass="active" to="home" spy={true} smooth={true}>
-                  <p>{i18next.t("navbar.main")}</p>
+                  <p className={i18next.t("navbar-nav-p")}>{i18next.t("navbar.main")}</p>
                 </Link>
               </div>
               {navsData.map((data, index) => (

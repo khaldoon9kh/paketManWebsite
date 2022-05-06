@@ -4,7 +4,9 @@
   transition: top 0.3s;
   justify-content: center;
 }
-
+.navbar-nav-p {
+  font-size: 0.8rem !important;
+}
 .navBarMainCont {
   display: flex;
   justify-content: center;

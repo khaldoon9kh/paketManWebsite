@@ -30,7 +30,10 @@
   background-repeat: no-repeat;
   background-position: 50% 0;
 }
-
+.featureTitleText_ru{
+  font-size: 1.8rem !important;
+  padding-top: 15px;
+}
 .featureTitleText {
   color: #5000b7;
   font-size: 3rem;

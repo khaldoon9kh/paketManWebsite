@@ -38,7 +38,7 @@ const Features = () => {
   return (
     <Container id="features" fluid className="featuresContainer">
       <Row className="featuresTitle">
-        <h2 className="featureTitleText">{i18next.t("navbar.features")}</h2>
+        <h2 className={i18next.t("featureTitleText_ru") + " featureTitleText"}>{i18next.t("navbar.features")}</h2>
         <YellowCercle className="yellowCercle" />
         <YellowCercle className="gryeCercle" />
       </Row>

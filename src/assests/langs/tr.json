@@ -70,5 +70,11 @@
     "footer": {
         "privacy":"Gizlilik Politikası",
         "terms":"şartlar & koşullar"
-    }
+    },
+    "navbar-nav-p" : "",
+    "featureTitleText_ru" : "",
+    "submitButtonCol_ru" : "",
+    "faqTitleText_ru" : "",
+    "contactUsTitle_ru" : ""
+
 }

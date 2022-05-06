@@ -99,7 +99,7 @@ const JoinUsForm = () => {
           </Col>
         </Row>
         <Row>
-          <Col className="submitButtonCol">
+          <Col className={"submitButtonCol  " +  i18next.t("submitButtonCol_ru")}>
             <input
               className="submitButton"
               type="submit"

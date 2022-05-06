@@ -73,5 +73,11 @@
     "footer": {
         "privacy":"سياسة الخصوصية",
         "terms":"البنود & الشروط"
-    }
+    },
+    "navbar-nav-p" : "",
+    "featureTitleText_ru" : "",
+    "submitButtonCol_ru" : "",
+    "faqTitleText_ru" : "",
+    "contactUsTitle_ru" : ""
+
 }

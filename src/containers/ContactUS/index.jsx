@@ -9,7 +9,7 @@ const ContactUs = () => {
   return (
     <Container id="contactUs" fluid className="contactUsCont" expand="lg">
       <Row className="contactUsTitleRow">
-        <h2 className="contactUsTitle">{i18next.t("navbar.contact")}</h2>
+        <h2 className={"contactUsTitle " +  i18next.t("contactUsTitle_ru")}>{i18next.t("navbar.contact")}</h2>
       </Row>
       <Row className="contactUsRow">
         <Col className="contactUsImgCont col-lg-4 col-sm-6">
