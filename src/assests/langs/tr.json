@@ -7,6 +7,9 @@
         "contact": "İletişim"
     },
     "header":"PaketMan, yakındaki restoranları bulabileceğiniz ve sipariş verebileceğiniz bir uygulamadır. Her zevke hitap edecek farklı mutfaklar sunarak müşterilerine çok sayıda seçenek sunmayı hedefleyen uygulama, kullanıcılara farklı ödeme ve teslimat seçenekleri sunuyor. Kullanıcılar, siparişi verdikten sonra hizmeti değerlendirebilir ve düşüncelerini paylaşabilir Platformumuz  dört farklı dilde hizmet vermektedir Türkçe, İngilizce, Arapça ve Rusça",
+    "header_2" : "",
+    "header_3" : "",
+
     "feature": {
         "one": {
             "featHead":"Hepsi senin için",
@@ -75,6 +78,7 @@
     "featureTitleText_ru" : "",
     "submitButtonCol_ru" : "",
     "faqTitleText_ru" : "",
-    "contactUsTitle_ru" : ""
+    "contactUsTitle_ru" : "",
+    "featuresTitle_ar" : ""
 
 }

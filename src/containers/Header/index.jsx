@@ -18,7 +18,11 @@ const Header = () => {
             <h1 className="headerTitle">PaketMan</h1>
           </Col>
           <Col>
-            <p className="headerBody">{i18next.t("header")}</p>
+            <p className="headerBody">
+              <p>{i18next.t("header")}</p>
+              <p>{i18next.t("header_2")}</p>
+              <p>{i18next.t("header_3")}</p>
+            </p>
           </Col>
           <Col className="downloadLinks">
             <a

@@ -64,7 +64,7 @@ const NavBar = ({ handelLang }) => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Container className="navBarItemContainer">
+            <Container className={i18next.t("navBarItemContainer_ar") + " navBarItemContainer"}>
               <div>
                 <Link activeClass="active" to="home" spy={true} smooth={true}>
                   <p className={i18next.t("navbar-nav-p")}>{i18next.t("navbar.main")}</p>

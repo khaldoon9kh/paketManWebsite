@@ -7,6 +7,9 @@
         "contact": "Contact Us"
     },
     "header": "PaketMan is a food ordering app where you can find the nearby restaurants and place an order. The app aim to provide a lot of choices for its customers by offering different cuisines that would cover all tastes, and give the users the choice of various payments and delivery options. After placing the order users can rate the service anda share their thoughts and so we hope that the food industry would get a push forward and become better and better.",
+    "header_2" : "",
+    "header_3" : "",
+
     "feature": {
         "one": {
             "featHead":"All for you",
@@ -75,6 +78,7 @@
     "featureTitleText_ru" : "",
     "submitButtonCol_ru" : "",
     "faqTitleText_ru" : "",
-    "contactUsTitle_ru" : ""
+    "contactUsTitle_ru" : "",
+    "featuresTitle_ar" : ""
 
 }

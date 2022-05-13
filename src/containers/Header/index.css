@@ -62,7 +62,7 @@
   text-align: justify;
   margin-top: 2rem;
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: bold;
 }
 
 .mobilePhoto {
@@ -144,7 +144,7 @@
   background-position: 50% 0;
   background-size: contain;
 }
-
+/*
 .downloadLinks::before {
   content: " ";
   display: block;
@@ -158,7 +158,7 @@
   background-repeat: no-repeat;
   background-position: 50% 0;
 }
-
+*/
 .socialmediaLinks::before {
   content: " ";
   display: block;

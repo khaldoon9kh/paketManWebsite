@@ -17,7 +17,10 @@
   justify-content: center;
   margin-bottom: 1rem;
 }
-
+.featuresTitle_ar{
+  width: 22.5rem !important;
+  /* padding-top: 10px !important; */
+}
 .sliderCont::before {
   content: " ";
   display: block;
