@@ -6,25 +6,25 @@
         "faq": "SSS",
         "contact": "İletişim"
     },
-    "header":"PaketMan, yakındaki restoranları bulabileceğiniz ve sipariş verebileceğiniz bir uygulamadır. Her zevke hitap edecek farklı mutfaklar sunarak müşterilerine çok sayıda seçenek sunmayı hedefleyen uygulama, kullanıcılara farklı ödeme ve teslimat seçenekleri sunuyor. Kullanıcılar, siparişi verdikten sonra hizmeti değerlendirebilir ve düşüncelerini paylaşabilir Platformumuz  dört farklı dilde hizmet vermektedir Türkçe, İngilizce, Arapça ve Rusça",
+    "header":"PaketMan, yakınınızdakı restoranları bulabileceğiniz ve sipariş verebileceğiniz bir uygulamadır. Her zevke hitap edecekeden farklı mutfaklar Bulutdrarak müşterilerine çok sayıda seçenek sunmayı hedefleyen uygulama, kullanıcılara farklı ödeme ve teslimat seçenekleride sunuyor. Kullanıcılar, siparişi verdikten sonra hizmeti değerlendirebilir ve düşüncelerini paylaşabilirler Platformumuz  dört farklı dilde hizmet vermektedir: Türkçe, İngilizce, Arapça ve Rusça",
     "header_2" : "",
     "header_3" : "",
 
     "feature": {
         "one": {
-            "featHead":"Hepsi senin için",
+            "featHead":"Hepsi Senin İçin",
             "featText": " PaketMan ile artık telefon numarası sormanıza ve her restoran yanıtını beklemenize gerek kalmayacak, hepsi tek bir yerde, organize edilmiş, güncellenmiş, filtrelenmiş ve güzel tasarlanmış."
         },
         "two": {
-            "featHead": "hızlıca sipariş ver",
-            "featText":"PaketMan size birçok seçenek sunar ve istediğinizi seçmenize izin verir. Seçenekler, farklı mutfaklardan sipariş verebileceğiniz kategorilerden başlamaktadır. Bundan sonra aynı yemeği sunan farklı restoranlar olacak ve son olarak ödeme sürecini nasıl tamamlamak istediğinizi seçeceksiniz."
+            "featHead": "Hızlıca Sipariş Ver",
+            "featText":"PaketMan size birçok seçenek sunar ve istediğinizi seçmenize izin verir. Sipariş farklı mutfaklardan istediğiniz kategoriyi seçerek başlıyor, ardından seçtiğiniz kategoriden farklı restoranlar sunulacak son olarak da ödeme yönteminizi seçerek siparişinizi tamamlayabilirsiniz"
         },
         "three": {
             "featHead": "Kampanyalar",
-            "featText":"Topluluğumuzun bir parçası olun ve kampanyalar bölümündeki yenilikleri keşfedin, kampanyalar  sayfasındaki diğer fırsatların yanı sıra her gün büyük bir teklifimiz var ve restoranlar sayfasındaki kampanyalar . Sadakat sistemi ayrıca, uygulamayı kullandığınız süre boyunca size birçok hediye ve yemek sağlamak için tasarlanmıştır."
+            "featText":"Topluluğumuzun bir parçası olun ve kampanyalar bölümündeki yenilikleri keşfedin, kampanyalar  sayfasındaki diğer fırsatların yanı sıra her gün büyük bir teklifimiz var ve restoranlar sayfasındaki kampanyalar . Ayrıca sadakat sistemi uygulamayı kullandıkça sunmak için tasarlanmıştır."
         },
         "four": {
-            "featHead": "sıcak takip et ve değerlendir",
+            "featHead": "Sıcak Takip et Ve Değerlendir",
             "featText":"Her adımda uygulama aracılığıyla sipariş durumunuzu takip edin  hızlı ve güvenli  hizmetler sağlamak için siparişinizi değerlendirin ."
         }
     },
@@ -47,11 +47,11 @@
     "faq": {
         "one": {
             "faqQuestion":"PaketMan'e nasıl üye  olabilirim ?" ,
-            "faqAnswer": "PaketMan'e üye olmak  için, size bir doğrulama kodunun gönderileceği geçerli bir telefon numaranız olmalıdır, ardından diğer gerekli bilgileri dolduracaksınız. Kayıt işlemi çok basittir ve kayıt sayfasına yan menüden ulaşılabilir."
+            "faqAnswer": "PaketMan'e üye olmak  için, size bir doğrulama kodunun gönderileceği geçerli bir telefon numaranız olmalıdır, ardından diğer gerekli bilgileri dolduracaksınız. Kayıt işlemi çok basittir ve kayıt sayfasına yan menüden Ulaşabıtirsiniz."
         },
         "two": {
             "faqQuestion": "Adresimin uzaklığına bağlı olarak teslimat için ek bir ücret var mı?",
-            "faqAnswer": "Restoranda mevcutsa, teslimat ücretleri her restoranın politikasına göre her siparişte ayrı ayrı görünecek ve müşterinin girdiği teslimat adresine bağlanacaktır. Bu ücretler, her bölge veya mesafe için sabit olarak kabul edilir."
+            "faqAnswer": "Restoranda mevcut ise, teslimat ücretleri her restoranın politikasına göre her siparişte ayrı ayrı görünecek ve müşterinin girdiği teslimat adresine bağlanacaktır. Bu ücretler, her bölge veya mesafe için sabit olarak kabul edilir."
         },
         "three": {
             "faqQuestion":"En sevdiğim yemekleri özel malzemelerle sipariş edebilir miyim?" ,
