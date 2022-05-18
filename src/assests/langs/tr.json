@@ -6,14 +6,14 @@
         "faq": "SSS",
         "contact": "İletişim"
     },
-    "header":"PaketMan, yakınınızdakı restoranları bulabileceğiniz ve sipariş verebileceğiniz bir uygulamadır. Her zevke hitap edecekeden farklı mutfaklar Bulutdrarak müşterilerine çok sayıda seçenek sunmayı hedefleyen uygulama, kullanıcılara farklı ödeme ve teslimat seçenekleride sunuyor. Kullanıcılar, siparişi verdikten sonra hizmeti değerlendirebilir ve düşüncelerini paylaşabilirler Platformumuz  dört farklı dilde hizmet vermektedir: Türkçe, İngilizce, Arapça ve Rusça",
+    "header":"PaketMan, yakınınızdakı restoranları bulabileceğiniz ve sipariş verebileceğiniz bir uygulamadır. Her zevke hitap eden farklı mutfaklar bulundurarak müşterilerine çok sayıda seçenek sunmayı hedefleyen uygulama, kullanıcılara farklı ödeme ve teslimat Seçemekleri de sunuyor. Kullanıcılar, siparişi verdikten sonra hizmeti değerlendirebilir ve düşüncelerini paylaşabilirler Platformumuz  dört farklı dilde hizmet vermektedir: Türkçe, İngilizce, Arapça ve Rusça",
     "header_2" : "",
     "header_3" : "",
 
     "feature": {
         "one": {
             "featHead":"Hepsi Senin İçin",
-            "featText": " PaketMan ile artık telefon numarası sormanıza ve her restoran yanıtını beklemenize gerek kalmayacak, hepsi tek bir yerde, organize edilmiş, güncellenmiş, filtrelenmiş ve güzel tasarlanmış."
+            "featText": " PaketMan ile artık telefon numarası sormanıza ve her restoranın yanıtını beklemenize gerek kalmayacak, hepsi tek bir yerde, organize edilmiş, güncellenmiş, filtrelenmiş ve güzel tasarlanmış."
         },
         "two": {
             "featHead": "Hızlıca Sipariş Ver",
@@ -47,7 +47,7 @@
     "faq": {
         "one": {
             "faqQuestion":"PaketMan'e nasıl üye  olabilirim ?" ,
-            "faqAnswer": "PaketMan'e üye olmak  için, size bir doğrulama kodunun gönderileceği geçerli bir telefon numaranız olmalıdır, ardından diğer gerekli bilgileri dolduracaksınız. Kayıt işlemi çok basittir ve kayıt sayfasına yan menüden Ulaşabıtirsiniz."
+            "faqAnswer": "PaketMan'e üye olmak  için, size bir doğrulama kodunun gönderileceği geçerli bir telefon numaranız olmalıdır, ardından diğer gerekli bilgileri dolduracaksınız. Kayıt işlemi çok basittir ve kayıt sayfasına yan menüden ulaşabilirsiniz."
         },
         "two": {
             "faqQuestion": "Adresimin uzaklığına bağlı olarak teslimat için ek bir ücret var mı?",
