@@ -1,5 +1,5 @@
 .faqContainer {
-  background-color: #ffec00;
+  background-color: white;
   padding: 2rem 10rem;
   position: relative;
   display: flex;
@@ -11,7 +11,7 @@
 .faqTitle {
   width: 15.5rem;
   height: 3.5rem;
-  background-color: #5000b7;
+  background-color: #00E2E4;
   border-radius: 3.5rem;
   display: flex;
   justify-content: center;
@@ -20,7 +20,7 @@
 }
 
 .faqTitleText {
-  color: #ffec00;
+  color: white;
   font-size: 3rem;
   font-weight: 600;
 }
@@ -41,6 +41,7 @@
     padding: 1rem;
     align-items: center;
   }
+
   .faqTextCont {
     display: flex;
     flex-direction: column;

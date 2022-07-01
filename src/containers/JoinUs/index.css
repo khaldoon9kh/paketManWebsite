@@ -1,5 +1,5 @@
 .joinUSContainer {
-  background-color: #5000b7;
+  background-color: #00E2E4;
   padding: 2rem 10rem;
   display: flex;
   flex-direction: column;
@@ -12,10 +12,10 @@
 }
 
 .joinUsTitle h2 {
-  color: #ffec00;
+  color: #EC4646;
   font-family: "Tajawal";
   font-size: 6.25rem;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .joinUsCardsCont {
@@ -86,6 +86,7 @@
 }
 
 @media (max-width: 1024px) {
+
   .joinUsTitle::before,
   .formCol::before,
   .joinUsCardsCont::before {
