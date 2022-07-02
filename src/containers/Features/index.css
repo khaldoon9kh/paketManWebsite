@@ -11,7 +11,7 @@
 .featuresTitle {
   width: 15.5rem;
   height: 3.5rem;
-  background-color: #ffec00;
+  background-color: #EC4646;
   border-radius: 3.5rem;
   display: flex;
   justify-content: center;
@@ -32,7 +32,7 @@
 }
 
 .featureTitleText {
-  color: #5000b7;
+  color: white;
   font-size: 3rem;
   font-weight: 600;
   font-style: normal;
@@ -62,14 +62,14 @@
 .custumeDot {
   width: 1.5rem;
   height: 1.5rem;
-  border: 0.0625rem solid #5000b7;
+  border: 0.0625rem solid #00E2E4;
   border-radius: 50%;
 }
 
 .slick-active .custumeDot {
   width: 1.5rem;
   height: 1.5rem;
-  background-color: yellow;
+  background-color: #EC4646;
   border-radius: 50%;
 }
 
@@ -77,7 +77,7 @@
   position: absolute;
   top: -3rem;
   left: 41rem;
-  fill: #ffec00;
+  fill: #EC4646;
 }
 
 .gryeCercle {
@@ -96,6 +96,7 @@
     align-content: center;
     align-items: center;
   }
+
   .featuresContainer {
     padding: 1rem 1rem;
     position: relative;

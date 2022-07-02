@@ -1,5 +1,5 @@
 .locationCont {
-  background-color: #5000b7;
+  background-color: #ec4646;
   padding: 1rem 10rem;
   position: relative;
   display: flex;
@@ -25,7 +25,7 @@
 }
 
 .iconCol {
-  background-color: #ffec00;
+  background-color: white;
   max-width: 3.75rem;
   height: 3.75rem;
   border-radius: 3.75rem;

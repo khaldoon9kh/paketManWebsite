@@ -2,7 +2,7 @@
   padding: 1rem 2rem;
   margin: 2rem;
   border-radius: 2rem;
-  background-color: #ffec00;
+  background-color: #663f3f;
   width: 100%;
   height: auto;
 }
@@ -21,7 +21,7 @@
 }
 
 .submitButton {
-  background-color: #5000b7;
+  background-color: #00E2E4;
   color: aliceblue;
   border-radius: 0.5rem;
   width: 5rem;
@@ -32,6 +32,7 @@
   .formCont {
     padding: 1rem;
   }
+
   .formRowRes {
     display: flex;
     flex-direction: column;
