@@ -4,7 +4,7 @@
 }
 
 .faqQuestion {
-  background-color: #5000b7;
+  background-color: #00E2E4;
   color: #ffffff;
   font-family: "Tajawal";
   font-size: 1.5rem;
@@ -12,7 +12,7 @@
 }
 
 .faqAnswer {
-  background-color: #ffec00;
+  background-color: white;
   color: #000000;
   font-family: "Tajawal";
   font-size: 1.5rem;

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Row, Col, Image, Container } from "react-bootstrap";
 import "./index.css";
-import ContactUsImg from "../../assests/pics/contactUs.svg";
+import ContactUsImg from "../../assests/pics/contactUs.png";
 import JoinUsForm from "../../components/JoinUSForm";
 import i18next from "i18next";
 

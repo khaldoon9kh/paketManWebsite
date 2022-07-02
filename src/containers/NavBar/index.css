@@ -1,5 +1,5 @@
 .navBarStyle {
-  background-color: #5000b8;
+  background-color: #00E2E4;
   padding: 0 10rem;
   transition: top 0.3s;
   justify-content: center;
@@ -32,7 +32,7 @@
 }
 .navBarItemContainer div {
   text-align: center;
-  background-color: yellow;
+  background-color: #EC4646;
   border-radius: 10rem;
   width: 10.5rem;
   height: 1.875rem;
@@ -44,7 +44,7 @@
 }
 
 .navbar-nav p {
-  color: #5000b8;
+  color: white;
   font-weight: bold;
   text-align: center;
   font-family: "Tajawal";
@@ -91,6 +91,7 @@
   .navBarItemContainer {
     justify-content: space-between !important;
   }
+<<<<<<< HEAD
 }
 
 .selectLang {
@@ -125,3 +126,6 @@
   font-size: 1rem;
 
 }
+=======
+}
+>>>>>>> origin/main

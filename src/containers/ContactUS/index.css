@@ -10,8 +10,13 @@
 
 .contactUsTitleRow {
   width: 15.5rem;
+<<<<<<< HEAD
   height: 4.5rem;
   background-color: #5000b7;
+=======
+  height: 3.5rem;
+  background-color: #ec4646;
+>>>>>>> origin/main
   border-radius: 3.5rem;
   display: flex;
   justify-content: center;
@@ -22,7 +27,7 @@
 
 .contactUsTitle {
   font-family: "Tajawal";
-  color: #ffec00;
+  color: white;
   font-size: 3rem;
   font-weight: 800;
 }
@@ -35,7 +40,7 @@
 }
 
 .contactUsImg {
-  width: 75%;
+  width: 100%;
   height: auto;
 }
 
