@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Row, Col, Image, Container } from "react-bootstrap";
 import "./index.css";
-import ContactUsImg from "../../assests/pics/contactUs.svg";
+import ContactUsImg from "../../assests/pics/contactUs.png";
 import JoinUsForm from "../../components/JoinUSForm";
 
 const ContactUs = () => {
@@ -11,11 +11,11 @@ const ContactUs = () => {
         <h2 className="contactUsTitle">Contact Us</h2>
       </Row>
       <Row className="contactUsRow">
-        <Col className="contactUsImgCont col-lg-4 col-sm-6" >
+        <Col className="contactUsImgCont col-lg-4 col-sm-6">
           <Image className="contactUsImg" src={ContactUsImg} />
         </Col>
         <Col className="contactUsForm col-lg-8 col-sm-6">
-          <JoinUsForm/>
+          <JoinUsForm />
         </Col>
       </Row>
     </Container>

@@ -1,5 +1,5 @@
 .joinUSContainer {
-  background-color: #00E2E4;
+  background-color: #EC4646;
   padding: 2rem 10rem;
   display: flex;
   flex-direction: column;
@@ -12,7 +12,7 @@
 }
 
 .joinUsTitle h2 {
-  color: #EC4646;
+  color: white;
   font-family: "Tajawal";
   font-size: 6.25rem;
   font-weight: 700;
