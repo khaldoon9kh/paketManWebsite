@@ -22,6 +22,7 @@
   align-content: center;
   justify-content: space-evenly;
   align-items: center;
+  direction: ltr;
 }
 
 .iconCol {

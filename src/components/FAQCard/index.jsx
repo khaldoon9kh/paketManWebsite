@@ -4,7 +4,14 @@ import "./index.css";
 
 const FAQCard = ({ faqQuestion, faqAnswer, eventNumber }) => {
   return (
-    <Card className="faqCard">
+    <Card
+      className="faqCard"
+      style={
+        localStorage.getItem("language") === "ar"
+          ? { textAlign: "right" }
+          : { textAlign: "left" }
+      }
+    >
       <Accordion.Toggle
         as={Card.Header}
         className="faqQuestion"

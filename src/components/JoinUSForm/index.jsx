@@ -2,7 +2,7 @@ import React from "react";
 import emailjs from "emailjs-com";
 import { Container, Button, Form, Row, Col } from "react-bootstrap";
 import "./index.css";
-
+import i18next from "i18next";
 const JoinUsForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -34,7 +34,7 @@ const JoinUsForm = () => {
             <Form.Control
               name="contact_Name"
               required
-              placeholder="Full Name"
+              placeholder={i18next.t("join.form.name")}
               onKeyPress={(e) => {
                 e.key === "Enter" && e.preventDefault();
               }}
@@ -48,11 +48,15 @@ const JoinUsForm = () => {
               placeholder="select"
               custom
             >
-              <option value="0">Subject:</option>
-              <option value="Resturant">Resturant</option>
-              <option value="Home_Chef">Home Chef</option>
-              <option value="Driver">Driver</option>
-              <option value="ContactUS">Genral Enquiry</option>
+              <option value="0">{i18next.t("join.form.select")}</option>
+              <option value="Resturant">
+                {i18next.t("join.card.resturant")}
+              </option>
+              <option value="Home_Chef">{i18next.t("join.card.home")}</option>
+              <option value="Driver">{i18next.t("join.card.driver")}</option>
+              <option value="ContactUS">
+                {i18next.t("join.form.contact")}
+              </option>
             </Form.Control>
           </Col>
         </Row>
@@ -62,7 +66,7 @@ const JoinUsForm = () => {
               name="email"
               required
               type="email"
-              placeholder="Email"
+              placeholder={i18next.t("join.form.email")}
               onKeyPress={(e) => {
                 e.key === "Enter" && e.preventDefault();
               }}
@@ -73,7 +77,7 @@ const JoinUsForm = () => {
               name="phone"
               required
               type="number"
-              placeholder="Phone Number"
+              placeholder={i18next.t("join.form.number")}
               onKeyPress={(e) => {
                 e.key === "Enter" && e.preventDefault();
               }}
@@ -85,7 +89,7 @@ const JoinUsForm = () => {
             <Form.Control
               name="user_message"
               required
-              placeholder="Please write us a small introduction about you"
+              placeholder={i18next.t("join.form.message")}
               as="textarea"
               rows={3}
               onKeyPress={(e) => {
@@ -95,11 +99,11 @@ const JoinUsForm = () => {
           </Col>
         </Row>
         <Row>
-          <Col className="submitButtonCol">
+          <Col className={"submitButtonCol  " +  i18next.t("submitButtonCol_ru")}>
             <input
               className="submitButton"
               type="submit"
-              value="Submit"
+              value={i18next.t("join.form.submit")}
             ></input>
           </Col>
         </Row>

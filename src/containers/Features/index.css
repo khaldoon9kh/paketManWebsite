@@ -10,14 +10,22 @@
 
 .featuresTitle {
   width: 15.5rem;
+<<<<<<< HEAD
+  height: 4.5rem;
+  background-color: #ffec00;
+=======
   height: 3.5rem;
   background-color: #EC4646;
+>>>>>>> origin/main
   border-radius: 3.5rem;
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
 }
-
+.featuresTitle_ar{
+  width: 22.5rem !important;
+  /* padding-top: 10px !important; */
+}
 .sliderCont::before {
   content: " ";
   display: block;
@@ -30,7 +38,10 @@
   background-repeat: no-repeat;
   background-position: 50% 0;
 }
-
+.featureTitleText_ru{
+  font-size: 1.8rem !important;
+  padding-top: 15px;
+}
 .featureTitleText {
   color: white;
   font-size: 3rem;

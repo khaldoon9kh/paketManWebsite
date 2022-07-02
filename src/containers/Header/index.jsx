@@ -7,6 +7,7 @@ import INSTA from "../../assests/socialMediaIcon/INSTA";
 import LINKEDIN from "../../assests/socialMediaIcon/LINKEDIN";
 import YT from "../../assests/socialMediaIcon/YT";
 import TIKTOK from "../../assests/socialMediaIcon/TIKTOK";
+import i18next from "i18next";
 
 const Header = () => {
   return (
@@ -18,14 +19,9 @@ const Header = () => {
           </Col>
           <Col>
             <p className="headerBody">
-              PaketMan is a food ordering app where you can find the nearby
-              restaurants and place an order. The app aim to provide a lot of
-              choices for its customers by offering different cuisines that
-              would cover all tastes, and give the users the choice of various
-              payments and delivery options. After placing the order users can
-              rate the service anda share their thoughts and so we hope that the
-              food industry would get a push forward and become better and
-              better.
+              <p>{i18next.t("header")}</p>
+              <p>{i18next.t("header_2")}</p>
+              <p>{i18next.t("header_3")}</p>
             </p>
           </Col>
           <Col className="downloadLinks">

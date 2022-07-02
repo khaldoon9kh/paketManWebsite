@@ -24,7 +24,12 @@
   font-size: 3rem;
   font-weight: 600;
 }
-
+.faqTitleText_ru{
+  font-size: 1rem !important;
+}
+.contactUsTitle_ru{
+  font-size: 1.7rem !important;
+}
 .faqImgCont {
   display: flex;
   justify-content: center;

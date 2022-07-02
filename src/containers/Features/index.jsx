@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import SingleFeature from "../../components/SingleFeature";
 import featuresData from "./dataFeatures";
 import YellowCercle from "../../assests/pics/YellowCercle";
+import i18next from "i18next";
 
 const Features = () => {
   const [nav1, setNav1] = useState(null);
@@ -36,8 +37,8 @@ const Features = () => {
 
   return (
     <Container id="features" fluid className="featuresContainer">
-      <Row className="featuresTitle">
-        <h2 className="featureTitleText">Features</h2>
+      <Row className={i18next.t("featuresTitle_ar") + " featuresTitle"}>
+        <h2 className={i18next.t("featureTitleText_ru") + " featureTitleText"}>{i18next.t("navbar.features")}</h2>
         <YellowCercle className="yellowCercle" />
         <YellowCercle className="gryeCercle" />
       </Row>
