@@ -1,20 +1,19 @@
 import resturant from "../../assests/pics/Path.svg";
 import homeChef from "../../assests/pics/homeChef.svg";
 import driver from "../../assests/pics/driver.svg";
-import i18next from "i18next";
 
 const cardsData = [
   {
     cardLogo: resturant,
-    cardTitle: `${i18next.t("join.card.resturant")}`,
+    cardTitle: "Resturant",
   },
   {
     cardLogo: homeChef,
-    cardTitle: `${i18next.t("join.card.home")}`,
+    cardTitle: "Home Chef",
   },
   {
     cardLogo: driver,
-    cardTitle: `${i18next.t("join.card.driver")}`,
+    cardTitle: "Driver",
   },
 ];
 

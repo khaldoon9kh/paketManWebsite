@@ -19,9 +19,7 @@
   display: flex;
   justify-content: center;
 }
-.submitButton_ru{
-  width: 6rem !important;
-}
+
 .submitButton {
   background-color: #00E2E4;
   color: aliceblue;

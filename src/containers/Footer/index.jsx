@@ -10,7 +10,6 @@ import YT from "../../assests/socialMediaIcon/YT";
 import TIKTOK from "../../assests/socialMediaIcon/TIKTOK";
 import privacy_file from "../../assests/privacyfile.pdf";
 import terms_file from "../../assests/terms_conditions.pdf";
-import i18next from "i18next";
 
 const Footer = () => {
   return (
@@ -30,10 +29,10 @@ const Footer = () => {
         </Col>
         <Col className="policyCol">
           <a href={privacy_file} target="_blank">
-            {i18next.t("footer.privacy")}
+            Privacy Policy
           </a>
           <a href={terms_file} target="_blank">
-            {i18next.t("footer.terms")}
+            Terms & Conditions
           </a>
         </Col>
       </Row>

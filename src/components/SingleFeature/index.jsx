@@ -5,22 +5,10 @@ import "./index.css";
 const SingleFeature = ({ featHead, featText }) => {
   return (
     <Container className="featureBox">
-      <Row
-        style={
-          localStorage.getItem("language") === "ar"
-            ? { direction: "rtl" }
-            : { direction: "ltr" }
-        }
-      >
+      <Row>
         <h2 className="featureTitle">{featHead}</h2>
       </Row>
-      <Row
-        style={
-          localStorage.getItem("language") === "ar"
-            ? { direction: "rtl" }
-            : { direction: "ltr" }
-        }
-      >
+      <Row>
         <p className="featureText">{featText}</p>
       </Row>
     </Container>

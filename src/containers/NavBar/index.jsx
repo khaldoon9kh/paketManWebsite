@@ -3,24 +3,23 @@ import { Navbar, Nav, Image, Container } from "react-bootstrap";
 import { Link } from "react-scroll";
 import PaketmanLogo from "../../assests/pics/PaketManWordmark@1X.png";
 import "./index.css";
-import i18next from "i18next";
 
-const NavBar = ({ handelLang }) => {
+const NavBar = () => {
   const navsData = [
     {
-      navTitle: `${i18next.t("navbar.features")}`,
+      navTitle: "Features",
       navId: "features",
     },
     {
-      navTitle: `${i18next.t("navbar.join")}`,
+      navTitle: "Join Us",
       navId: "joinUs",
     },
     {
-      navTitle: `${i18next.t("navbar.faq")}`,
+      navTitle: "FAQ",
       navId: "faq",
     },
     {
-      navTitle: `${i18next.t("navbar.contact")}`,
+      navTitle: "Contact Us",
       navId: "contactUs",
     },
   ];
@@ -29,45 +28,22 @@ const NavBar = ({ handelLang }) => {
     return (
       <div>
         <Link to={navId} spy={true} smooth={true}>
-          <p className={i18next.t("navbar-nav-p")}>{navTitle}</p>
+          <p>{navTitle}</p>
         </Link>
       </div>
     );
   };
-  const handleChange = (lang) => {
-    handelLang(lang.target.value);
-    location.reload();
-  };
-
-  if (localStorage.getItem("language") === "ar") {
-    document.body.style.direction = "rtl";
-  } else {
-    document.body.style.direction = "ltr";
-  }
 
   return (
     <Navbar collapseOnSelect expand="xl" className="navBarStyle">
       <Container className="navBarMainCont">
-        <div className="selectLang">
-          <select
-            onChange={handleChange}
-            value={localStorage.getItem("language")}
-          >
-            <option selected value="en">
-              EN
-            </option>
-            <option value="tr">TR</option>
-            <option value="ar">ع</option>
-            <option value="ru">RU</option>
-          </select>
-        </div>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Container className={i18next.t("navBarItemContainer_ar") + " navBarItemContainer"}>
+            <Container className="navBarItemContainer">
               <div>
                 <Link activeClass="active" to="home" spy={true} smooth={true}>
-                  <p className={i18next.t("navbar-nav-p")}>{i18next.t("navbar.main")}</p>
+                  <p>Main Page</p>
                 </Link>
               </div>
               {navsData.map((data, index) => (
