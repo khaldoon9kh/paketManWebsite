@@ -22,11 +22,11 @@ function App() {
   useEffect(() => {
     if (localStorage.getItem("language") === null) {
       localStorage.setItem("language", "en");
-        window.location.reload();
-        //alert('first');
+      window.location.reload();
+      //alert('first');
     } else {
       localStorage.setItem("language", lang);
-        //alert('second');
+      //alert('second');
     }
   }, [lang]);
 
