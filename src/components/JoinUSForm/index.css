@@ -23,11 +23,12 @@
   width: 6rem !important;
 }
 .submitButton {
-  background-color: #00E2E4;
+  background-color: #EC4646;
   color: aliceblue;
   border-radius: 0.5rem;
   width: 5rem;
   height: auto;
+  border-color: #EC4646;
 }
 
 @media (max-width: 800px) {
