@@ -7,10 +7,12 @@
   justify-content: center;
   align-content: space-between;
 }
+
 .footerCont .col,
 .logoCol img {
   margin: 1rem 0rem;
 }
+
 .socialCol {
   display: flex;
   justify-content: center;
@@ -27,9 +29,11 @@
   color: #ec4646;
   font-weight: 700;
 }
-.socialCol a{
+
+.socialCol a {
   color: #663f3f;
 }
+
 .logoCol {
   width: 14.5rem;
   height: 13.4rem;
@@ -45,6 +49,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 .policyCol a {
   color: black;
 }
@@ -52,6 +57,10 @@
 .paketManFooterLogo {
   width: 12rem;
   height: auto;
+}
+
+.tMIcon {
+  width: 30%;
 }
 
 @media (max-width: 800px) {
