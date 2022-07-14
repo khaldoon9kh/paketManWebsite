@@ -1,7 +1,21 @@
 import EmailIcon from "../../assests/pics/email.svg";
 import PinIcon from "../../assests/pics/pinMap.svg";
 import PhoneIcon from "../../assests/pics/phone.svg";
-
+let local = localStorage.getItem("language");
+let phoneNum = () => {
+  switch (local) {
+    case "ar":
+      return "0533 581 00 93";
+    case "en":
+      return "0531 634 56 60";
+    case "tr":
+      return "0533 581 00 92";
+    case "ru":
+      return "0533 581 94 76";
+    default:
+      return "0533 581 00 92";
+  }
+};
 const contactInfo = [
   {
     icon: PinIcon,
@@ -13,7 +27,7 @@ const contactInfo = [
   },
   {
     icon: PhoneIcon,
-    text: "0533 581 00 92",
+    text: phoneNum(),
   },
 ];
 

@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col, Image, Container } from "react-bootstrap";
 import "./index.css";
 import PaketManLogo from "../../assests/pics/PaketManWordmark@1X.png";
-import TMIcon from "../../assests/socialMediaIcon/TD.svg";
+import TMIcon from "../../assests/socialMediaIcon/TD.png";
 import FB from "../../assests/socialMediaIcon/FB";
 import INSTA from "../../assests/socialMediaIcon/INSTA";
 import LINKEDIN from "../../assests/socialMediaIcon/LINKEDIN";
