@@ -34,11 +34,13 @@ const Features = () => {
   const settingsPic = {
     asNavFor: ".slider-for",
   };
-
+  let localeLang = localStorage.getItem("language");
   return (
     <Container id="features" fluid className="featuresContainer">
       <Row className={i18next.t("featuresTitle_ar") + " featuresTitle"}>
-        <h2 className={i18next.t("featureTitleText_ru") + " featureTitleText"}>{i18next.t("navbar.features")}</h2>
+        <h2 className={i18next.t("featureTitleText_ru") + " featureTitleText"}>
+          {i18next.t("navbar.features")}
+        </h2>
         <YellowCercle className="yellowCercle" />
         <YellowCercle className="gryeCercle" />
       </Row>
@@ -52,7 +54,6 @@ const Features = () => {
             {featuresData.map((feat) => (
               <SingleFeature
                 key={feat.id}
-                photo={feat.photo}
                 featHead={feat.featHead}
                 featText={feat.featText}
               />
@@ -72,7 +73,7 @@ const Features = () => {
             ref={(slider) => setSlider2(slider)}
           >
             {featuresData.map((feat) => (
-              <Image src={feat.photo} key={feat.id} />
+              <Image src={feat.photo[localeLang]} key={feat.id} />
             ))}
           </Slider>
         </Col>
